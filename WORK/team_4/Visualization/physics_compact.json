@@ -1,0 +1,2394 @@
+{
+  "labels": {
+    "P101": "область деятельности",
+    "P111": "физическая величина",
+    "P12571": "основано на единицах",
+    "P1268": "представляет",
+    "P1269": "тематически относится к",
+    "P12913": "класс объекта воздействия",
+    "P1343": "описывается в источнике",
+    "P138": "названо в честь",
+    "P144": "создано на основе",
+    "P1542": "вызывает",
+    "P155": "предыдущее по порядку",
+    "P1552": "обладает свойством",
+    "P1557": "является воплощением",
+    "P156": "следующее по порядку",
+    "P1889": "не путать с",
+    "P2152": "античастица",
+    "P2283": "использует",
+    "P2575": "измеряет",
+    "P2578": "предмет изучения",
+    "P2579": "изучается в",
+    "P2670": "состоит из представителей класса",
+    "P276": "местонахождение",
+    "P279": "подкласс от",
+    "P31": "это частный случай понятия",
+    "P3113": "не включает",
+    "P361": "является частью",
+    "P366": "используется как/для/при/в",
+    "P3729": "уровень ниже",
+    "P3730": "уровень выше",
+    "P376": "на астрономическом теле",
+    "P397": "родительское тело",
+    "P398": "тело-спутник",
+    "P460": "предположительно одно и то же с",
+    "P461": "противоположно",
+    "P5135": "больше чем",
+    "P5136": "меньше чем",
+    "P517": "фундаментальные взаимодействия",
+    "P527": "состоит из",
+    "P5869": "модельный элемент",
+    "P710": "участник(и)",
+    "P800": "известная работа",
+    "P8111": "рекомендуемая единица измерения",
+    "P828": "причиной является",
+    "P921": "основная тема",
+    "Q1": "Вселенная",
+    "Q102836": "пружина",
+    "Q104837": "термодинамическая фаза",
+    "Q1075": "цвет",
+    "Q107715": "физическая величина",
+    "Q11023": "инженерное дело",
+    "Q11223329": "динамометр",
+    "Q11344": "химический элемент",
+    "Q11369": "молекула",
+    "Q11376": "ускорение",
+    "Q11379": "энергия",
+    "Q11382": "закон сохранения энергии",
+    "Q11388": "инфракрасное излучение",
+    "Q11402": "сила",
+    "Q11408": "магнитное поле",
+    "Q11412": "гравитация",
+    "Q11421": "магнит",
+    "Q11423": "масса",
+    "Q11432": "газ",
+    "Q11435": "жидкость",
+    "Q11448": "радиоактивность",
+    "Q1146001": "источник света",
+    "Q11465": "скорость",
+    "Q11466": "температура",
+    "Q11469": "стекло",
+    "Q11473": "термодинамика",
+    "Q11476": "кинематика",
+    "Q11652": "частота",
+    "Q11656": "диод",
+    "Q1185557": "сила упругости",
+    "Q122508": "инерция",
+    "Q124003": "скорость звука",
+    "Q124291": "проводник",
+    "Q12453": "измерение",
+    "Q12725": "электричество",
+    "Q128030": "динамика",
+    "Q1290": "Блез Паскаль",
+    "Q1293220": "физическое явление",
+    "Q12969754": "электромагнитное излучение",
+    "Q132629": "электроцепь",
+    "Q133673": "спин",
+    "Q133900": "дифракция",
+    "Q134465": "классическая теория тяготения Ньютона",
+    "Q1350230": "Гумно",
+    "Q136980": "интерференция волн",
+    "Q140028": "свободное падение",
+    "Q14506045": "оптическое явление",
+    "Q14620": "оптика",
+    "Q1530280": "равновесие",
+    "Q155640": "потенциальная энергия",
+    "Q159190": "амплитуда",
+    "Q160329": "конвекция",
+    "Q161635": "вектор угловой скорости",
+    "Q163214": "диффузия",
+    "Q165939": "отражение",
+    "Q169019": "статика",
+    "Q170282": "закон Гука",
+    "Q170475": "колебание",
+    "Q170749": "поверхностное натяжение",
+    "Q172137": "сила Лоренца",
+    "Q172280": "Идеальный газ",
+    "Q172858": "резонанс",
+    "Q1751973": "вынужденные колебания",
+    "Q176140": "электрод",
+    "Q17737": "теория",
+    "Q177625": "электромагнитное поле",
+    "Q177897": "индуктивность",
+    "Q178032": "электромагнит",
+    "Q178036": "Броуновское движение",
+    "Q178733": "центробежная сила",
+    "Q179388": "теплоёмкость",
+    "Q179635": "теплопередача",
+    "Q180241": "внутренняя энергия",
+    "Q181404": "закон Архимеда",
+    "Q182453": "адиабатический процесс",
+    "Q18335": "излучение",
+    "Q186161": "ионизирующее излучение",
+    "Q188603": "капиллярность",
+    "Q190760": "Закон Паскаля",
+    "Q192704": "коэффициент полезного действия",
+    "Q193139": "траектория",
+    "Q193514": "деформация",
+    "Q196372": "погрешность измерения",
+    "Q1997": "оксид углерода(IV)",
+    "Q2": "Земля",
+    "Q20702": "маятник",
+    "Q2225": "электрон",
+    "Q2305665": "закон сохранения импульса",
+    "Q2348": "нейтрон",
+    "Q2352999": "доза радиации",
+    "Q238323": "ядерная реакция",
+    "Q25236": "ватт",
+    "Q25250": "вольт",
+    "Q25269": "джоуль",
+    "Q25272": "ампер",
+    "Q25288": "вес",
+    "Q25342": "мощность",
+    "Q25358": "электрическое сопротивление",
+    "Q25428": "электрическое напряжение",
+    "Q255722": "пар",
+    "Q26540": "искусственный спутник",
+    "Q2661322": "Насыщенный пар",
+    "Q2945123": "центр масс/инерции/тяжести",
+    "Q29539": "плотность",
+    "Q29996": "сила тока",
+    "Q30006": "гравитационное ускорение",
+    "Q30204": "магнитная индукция",
+    "Q317949": "активность радиоактивного источника",
+    "Q3198": "фотон",
+    "Q33741": "молния",
+    "Q34442": "дорога",
+    "Q35197": "зеркало",
+    "Q36253": "длина",
+    "Q36496": "ион",
+    "Q37147": "атомное ядро",
+    "Q37172": "волна",
+    "Q38867": "лазер",
+    "Q39297": "объём",
+    "Q39369": "герц",
+    "Q40260": "клеточное ядро",
+    "Q405": "Луна",
+    "Q40609": "полярное сияние",
+    "Q41273": "импульс",
+    "Q413": "физика",
+    "Q4130": "орбита",
+    "Q41364": "длина волны",
+    "Q41591": "закон Ома",
+    "Q41716": "кипение",
+    "Q41719": "гипотеза",
+    "Q4299309": "невесомость",
+    "Q45003": "энтропия",
+    "Q46221": "электрическое поле",
+    "Q46276": "кинетическая энергия",
+    "Q46344": "квант",
+    "Q467980": "геометрическая оптика",
+    "Q47083": "ом",
+    "Q483948": "закон сохранения массы",
+    "Q487005": "теплопроводность",
+    "Q506710": "гидрон",
+    "Q523": "звезда",
+    "Q5339": "транзистор",
+    "Q558066": "гравитационное поле",
+    "Q559265": "оптическая сила",
+    "Q560": "гелий",
+    "Q589": "чёрная дыра",
+    "Q628858": "рабочее место",
+    "Q629": "кислород",
+    "Q62932": "упругость",
+    "Q634": "планета",
+    "Q646": "термометр",
+    "Q649036": "давление электромагнитного излучения",
+    "Q6497624": "сила плавучести",
+    "Q72277": "преломление",
+    "Q748254": "реактивная тяга",
+    "Q768575": "линза",
+    "Q7860": "природа",
+    "Q79782": "движение",
+    "Q81809": "атмосферное давление",
+    "Q83213": "фотоэффект",
+    "Q83301": "гром",
+    "Q845744": "Статическое электричество",
+    "Q847073": "Евклидова метрика",
+    "Q868425": "равнодействующая сила",
+    "Q908584": "растяжение",
+    "Q9121": "атом",
+    "Q9128": "свет",
+    "Q944": "квантовая механика",
+    "Q988780": "электромагнитная индукция"
+  },
+  "edges": [
+    {
+      "subject_id": "Q523",
+      "subject_label": "звезда",
+      "predicate_id": "P276",
+      "predicate_label": "местонахождение",
+      "object_id": "Q1",
+      "object_label": "Вселенная"
+    },
+    {
+      "subject_id": "Q7860",
+      "subject_label": "природа",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q1",
+      "object_label": "Вселенная"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q1",
+      "object_label": "Вселенная"
+    },
+    {
+      "subject_id": "Q405",
+      "subject_label": "Луна",
+      "predicate_id": "P397",
+      "predicate_label": "родительское тело",
+      "object_id": "Q2",
+      "object_label": "Земля"
+    },
+    {
+      "subject_id": "Q634",
+      "subject_label": "планета",
+      "predicate_id": "P5869",
+      "predicate_label": "модельный элемент",
+      "object_id": "Q2",
+      "object_label": "Земля"
+    },
+    {
+      "subject_id": "Q2",
+      "subject_label": "Земля",
+      "predicate_id": "P398",
+      "predicate_label": "тело-спутник",
+      "object_id": "Q405",
+      "object_label": "Луна"
+    },
+    {
+      "subject_id": "Q405",
+      "subject_label": "Луна",
+      "predicate_id": "P376",
+      "predicate_label": "на астрономическом теле",
+      "object_id": "Q405",
+      "object_label": "Луна"
+    },
+    {
+      "subject_id": "Q1290",
+      "subject_label": "Блез Паскаль",
+      "predicate_id": "P101",
+      "predicate_label": "область деятельности",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q11023",
+      "subject_label": "инженерное дело",
+      "predicate_id": "P2283",
+      "predicate_label": "использует",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q11473",
+      "subject_label": "термодинамика",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q14620",
+      "subject_label": "оптика",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q18335",
+      "subject_label": "излучение",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q18335",
+      "subject_label": "излучение",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q107715",
+      "subject_label": "физическая величина",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q136980",
+      "subject_label": "интерференция волн",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q1293220",
+      "subject_label": "физическое явление",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q413",
+      "object_label": "физика"
+    },
+    {
+      "subject_id": "Q634",
+      "subject_label": "планета",
+      "predicate_id": "P3730",
+      "predicate_label": "уровень выше",
+      "object_id": "Q523",
+      "object_label": "звезда"
+    },
+    {
+      "subject_id": "Q523",
+      "subject_label": "звезда",
+      "predicate_id": "P3730",
+      "predicate_label": "уровень выше",
+      "object_id": "Q589",
+      "object_label": "чёрная дыра"
+    },
+    {
+      "subject_id": "Q1997",
+      "subject_label": "оксид углерода(IV)",
+      "predicate_id": "P2670",
+      "predicate_label": "состоит из представителей класса",
+      "object_id": "Q629",
+      "object_label": "кислород"
+    },
+    {
+      "subject_id": "Q523",
+      "subject_label": "звезда",
+      "predicate_id": "P3729",
+      "predicate_label": "уровень ниже",
+      "object_id": "Q634",
+      "object_label": "планета"
+    },
+    {
+      "subject_id": "Q46344",
+      "subject_label": "квант",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q944",
+      "object_label": "квантовая механика"
+    },
+    {
+      "subject_id": "Q83213",
+      "subject_label": "фотоэффект",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q944",
+      "object_label": "квантовая механика"
+    },
+    {
+      "subject_id": "Q190760",
+      "subject_label": "Закон Паскаля",
+      "predicate_id": "P138",
+      "predicate_label": "названо в честь",
+      "object_id": "Q1290",
+      "object_label": "Блез Паскаль"
+    },
+    {
+      "subject_id": "Q3198",
+      "subject_label": "фотон",
+      "predicate_id": "P2152",
+      "predicate_label": "античастица",
+      "object_id": "Q3198",
+      "object_label": "фотон"
+    },
+    {
+      "subject_id": "Q9128",
+      "subject_label": "свет",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q3198",
+      "object_label": "фотон"
+    },
+    {
+      "subject_id": "Q12969754",
+      "subject_label": "электромагнитное излучение",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q3198",
+      "object_label": "фотон"
+    },
+    {
+      "subject_id": "Q176140",
+      "subject_label": "электрод",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q5339",
+      "object_label": "транзистор"
+    },
+    {
+      "subject_id": "Q1293220",
+      "subject_label": "физическое явление",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q7860",
+      "object_label": "природа"
+    },
+    {
+      "subject_id": "Q11369",
+      "subject_label": "молекула",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q9121",
+      "object_label": "атом"
+    },
+    {
+      "subject_id": "Q37147",
+      "subject_label": "атомное ядро",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q9121",
+      "object_label": "атом"
+    },
+    {
+      "subject_id": "Q405",
+      "subject_label": "Луна",
+      "predicate_id": "P138",
+      "predicate_label": "названо в честь",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q14620",
+      "subject_label": "оптика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q649036",
+      "subject_label": "давление электромагнитного излучения",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q768575",
+      "subject_label": "линза",
+      "predicate_id": "P2283",
+      "predicate_label": "использует",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q1146001",
+      "subject_label": "источник света",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q14506045",
+      "subject_label": "оптическое явление",
+      "predicate_id": "P2283",
+      "predicate_label": "использует",
+      "object_id": "Q9128",
+      "object_label": "свет"
+    },
+    {
+      "subject_id": "Q560",
+      "subject_label": "гелий",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q11344",
+      "object_label": "химический элемент"
+    },
+    {
+      "subject_id": "Q629",
+      "subject_label": "кислород",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q11344",
+      "object_label": "химический элемент"
+    },
+    {
+      "subject_id": "Q9121",
+      "subject_label": "атом",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11344",
+      "object_label": "химический элемент"
+    },
+    {
+      "subject_id": "Q9121",
+      "subject_label": "атом",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q11369",
+      "object_label": "молекула"
+    },
+    {
+      "subject_id": "Q36496",
+      "subject_label": "ион",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q11369",
+      "object_label": "молекула"
+    },
+    {
+      "subject_id": "Q11465",
+      "subject_label": "скорость",
+      "predicate_id": "P156",
+      "predicate_label": "следующее по порядку",
+      "object_id": "Q11376",
+      "object_label": "ускорение"
+    },
+    {
+      "subject_id": "Q30006",
+      "subject_label": "гравитационное ускорение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11376",
+      "object_label": "ускорение"
+    },
+    {
+      "subject_id": "Q79782",
+      "subject_label": "движение",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11376",
+      "object_label": "ускорение"
+    },
+    {
+      "subject_id": "Q413",
+      "subject_label": "физика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q11382",
+      "subject_label": "закон сохранения энергии",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q11423",
+      "subject_label": "масса",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q11473",
+      "subject_label": "термодинамика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q12725",
+      "subject_label": "электричество",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q25269",
+      "subject_label": "джоуль",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q25342",
+      "subject_label": "мощность",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q180241",
+      "subject_label": "внутренняя энергия",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11379",
+      "object_label": "энергия"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11382",
+      "object_label": "закон сохранения энергии"
+    },
+    {
+      "subject_id": "Q483948",
+      "subject_label": "закон сохранения массы",
+      "predicate_id": "P460",
+      "predicate_label": "предположительно одно и то же с",
+      "object_id": "Q11382",
+      "object_label": "закон сохранения энергии"
+    },
+    {
+      "subject_id": "Q11423",
+      "subject_label": "масса",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q172137",
+      "subject_label": "сила Лоренца",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q748254",
+      "subject_label": "реактивная тяга",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q868425",
+      "subject_label": "равнодействующая сила",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q908584",
+      "subject_label": "растяжение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q11223329",
+      "subject_label": "динамометр",
+      "predicate_id": "P2575",
+      "predicate_label": "измеряет",
+      "object_id": "Q11402",
+      "object_label": "сила"
+    },
+    {
+      "subject_id": "Q11421",
+      "subject_label": "магнит",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q11408",
+      "object_label": "магнитное поле"
+    },
+    {
+      "subject_id": "Q177625",
+      "subject_label": "электромагнитное поле",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q11408",
+      "object_label": "магнитное поле"
+    },
+    {
+      "subject_id": "Q1",
+      "subject_label": "Вселенная",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q2225",
+      "subject_label": "электрон",
+      "predicate_id": "P517",
+      "predicate_label": "фундаментальные взаимодействия",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q2348",
+      "subject_label": "нейтрон",
+      "predicate_id": "P517",
+      "predicate_label": "фундаментальные взаимодействия",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q3198",
+      "subject_label": "фотон",
+      "predicate_id": "P517",
+      "predicate_label": "фундаментальные взаимодействия",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q4130",
+      "subject_label": "орбита",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q30006",
+      "subject_label": "гравитационное ускорение",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q37147",
+      "subject_label": "атомное ядро",
+      "predicate_id": "P517",
+      "predicate_label": "фундаментальные взаимодействия",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q81809",
+      "subject_label": "атмосферное давление",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q140028",
+      "subject_label": "свободное падение",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q558066",
+      "subject_label": "гравитационное поле",
+      "predicate_id": "P1268",
+      "predicate_label": "представляет",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q558066",
+      "subject_label": "гравитационное поле",
+      "predicate_id": "P1557",
+      "predicate_label": "является воплощением",
+      "object_id": "Q11412",
+      "object_label": "гравитация"
+    },
+    {
+      "subject_id": "Q178032",
+      "subject_label": "электромагнит",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11421",
+      "object_label": "магнит"
+    },
+    {
+      "subject_id": "Q589",
+      "subject_label": "чёрная дыра",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q634",
+      "subject_label": "планета",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q122508",
+      "subject_label": "инерция",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q178733",
+      "subject_label": "центробежная сила",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q11423",
+      "object_label": "масса"
+    },
+    {
+      "subject_id": "Q11435",
+      "subject_label": "жидкость",
+      "predicate_id": "P5135",
+      "predicate_label": "больше чем",
+      "object_id": "Q11432",
+      "object_label": "газ"
+    },
+    {
+      "subject_id": "Q11435",
+      "subject_label": "жидкость",
+      "predicate_id": "P5136",
+      "predicate_label": "меньше чем",
+      "object_id": "Q11432",
+      "object_label": "газ"
+    },
+    {
+      "subject_id": "Q172280",
+      "subject_label": "Идеальный газ",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11432",
+      "object_label": "газ"
+    },
+    {
+      "subject_id": "Q255722",
+      "subject_label": "пар",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q11432",
+      "object_label": "газ"
+    },
+    {
+      "subject_id": "Q11432",
+      "subject_label": "газ",
+      "predicate_id": "P5136",
+      "predicate_label": "меньше чем",
+      "object_id": "Q11435",
+      "object_label": "жидкость"
+    },
+    {
+      "subject_id": "Q317949",
+      "subject_label": "активность радиоактивного источника",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11448",
+      "object_label": "радиоактивность"
+    },
+    {
+      "subject_id": "Q11376",
+      "subject_label": "ускорение",
+      "predicate_id": "P155",
+      "predicate_label": "предыдущее по порядку",
+      "object_id": "Q11465",
+      "object_label": "скорость"
+    },
+    {
+      "subject_id": "Q79782",
+      "subject_label": "движение",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11465",
+      "object_label": "скорость"
+    },
+    {
+      "subject_id": "Q646",
+      "subject_label": "термометр",
+      "predicate_id": "P2575",
+      "predicate_label": "измеряет",
+      "object_id": "Q11466",
+      "object_label": "температура"
+    },
+    {
+      "subject_id": "Q11473",
+      "subject_label": "термодинамика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q11466",
+      "object_label": "температура"
+    },
+    {
+      "subject_id": "Q41716",
+      "subject_label": "кипение",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11466",
+      "object_label": "температура"
+    },
+    {
+      "subject_id": "Q35197",
+      "subject_label": "зеркало",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q11469",
+      "object_label": "стекло"
+    },
+    {
+      "subject_id": "Q11466",
+      "subject_label": "температура",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q41716",
+      "subject_label": "кипение",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q45003",
+      "subject_label": "энтропия",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q104837",
+      "subject_label": "термодинамическая фаза",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q160329",
+      "subject_label": "конвекция",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q163214",
+      "subject_label": "диффузия",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q170749",
+      "subject_label": "поверхностное натяжение",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q172280",
+      "subject_label": "Идеальный газ",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q179388",
+      "subject_label": "теплоёмкость",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q180241",
+      "subject_label": "внутренняя энергия",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q182453",
+      "subject_label": "адиабатический процесс",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q192704",
+      "subject_label": "коэффициент полезного действия",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q487005",
+      "subject_label": "теплопроводность",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q2661322",
+      "subject_label": "Насыщенный пар",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q11473",
+      "object_label": "термодинамика"
+    },
+    {
+      "subject_id": "Q128030",
+      "subject_label": "динамика",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q11476",
+      "object_label": "кинематика"
+    },
+    {
+      "subject_id": "Q37172",
+      "subject_label": "волна",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q11652",
+      "object_label": "частота"
+    },
+    {
+      "subject_id": "Q39369",
+      "subject_label": "герц",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q11652",
+      "object_label": "частота"
+    },
+    {
+      "subject_id": "Q25428",
+      "subject_label": "электрическое напряжение",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q12725",
+      "object_label": "электричество"
+    },
+    {
+      "subject_id": "Q845744",
+      "subject_label": "Статическое электричество",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q12725",
+      "object_label": "электричество"
+    },
+    {
+      "subject_id": "Q1075",
+      "subject_label": "цвет",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q14620",
+      "object_label": "оптика"
+    },
+    {
+      "subject_id": "Q9128",
+      "subject_label": "свет",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q14620",
+      "object_label": "оптика"
+    },
+    {
+      "subject_id": "Q467980",
+      "subject_label": "геометрическая оптика",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q14620",
+      "object_label": "оптика"
+    },
+    {
+      "subject_id": "Q14506045",
+      "subject_label": "оптическое явление",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q14620",
+      "object_label": "оптика"
+    },
+    {
+      "subject_id": "Q14506045",
+      "subject_label": "оптическое явление",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q14620",
+      "object_label": "оптика"
+    },
+    {
+      "subject_id": "Q41719",
+      "subject_label": "гипотеза",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q17737",
+      "object_label": "теория"
+    },
+    {
+      "subject_id": "Q11388",
+      "subject_label": "инфракрасное излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q18335",
+      "object_label": "излучение"
+    },
+    {
+      "subject_id": "Q186161",
+      "subject_label": "ионизирующее излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q18335",
+      "object_label": "излучение"
+    },
+    {
+      "subject_id": "Q2352999",
+      "subject_label": "доза радиации",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q18335",
+      "object_label": "излучение"
+    },
+    {
+      "subject_id": "Q12969754",
+      "subject_label": "электромагнитное излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q18335",
+      "object_label": "излучение"
+    },
+    {
+      "subject_id": "Q25342",
+      "subject_label": "мощность",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25236",
+      "object_label": "ватт"
+    },
+    {
+      "subject_id": "Q25428",
+      "subject_label": "электрическое напряжение",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25250",
+      "object_label": "вольт"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25269",
+      "object_label": "джоуль"
+    },
+    {
+      "subject_id": "Q25236",
+      "subject_label": "ватт",
+      "predicate_id": "P144",
+      "predicate_label": "создано на основе",
+      "object_id": "Q25269",
+      "object_label": "джоуль"
+    },
+    {
+      "subject_id": "Q46276",
+      "subject_label": "кинетическая энергия",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25269",
+      "object_label": "джоуль"
+    },
+    {
+      "subject_id": "Q155640",
+      "subject_label": "потенциальная энергия",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25269",
+      "object_label": "джоуль"
+    },
+    {
+      "subject_id": "Q180241",
+      "subject_label": "внутренняя энергия",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25269",
+      "object_label": "джоуль"
+    },
+    {
+      "subject_id": "Q25250",
+      "subject_label": "вольт",
+      "predicate_id": "P12571",
+      "predicate_label": "основано на единицах",
+      "object_id": "Q25272",
+      "object_label": "ампер"
+    },
+    {
+      "subject_id": "Q29996",
+      "subject_label": "сила тока",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q25272",
+      "object_label": "ампер"
+    },
+    {
+      "subject_id": "Q47083",
+      "subject_label": "ом",
+      "predicate_id": "P12571",
+      "predicate_label": "основано на единицах",
+      "object_id": "Q25272",
+      "object_label": "ампер"
+    },
+    {
+      "subject_id": "Q11412",
+      "subject_label": "гравитация",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q25288",
+      "object_label": "вес"
+    },
+    {
+      "subject_id": "Q11423",
+      "subject_label": "масса",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q25288",
+      "object_label": "вес"
+    },
+    {
+      "subject_id": "Q178733",
+      "subject_label": "центробежная сила",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q25288",
+      "object_label": "вес"
+    },
+    {
+      "subject_id": "Q6497624",
+      "subject_label": "сила плавучести",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q25288",
+      "object_label": "вес"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q25342",
+      "object_label": "мощность"
+    },
+    {
+      "subject_id": "Q25236",
+      "subject_label": "ватт",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q25342",
+      "object_label": "мощность"
+    },
+    {
+      "subject_id": "Q11656",
+      "subject_label": "диод",
+      "predicate_id": "P366",
+      "predicate_label": "используется как/для/при/в",
+      "object_id": "Q25358",
+      "object_label": "электрическое сопротивление"
+    },
+    {
+      "subject_id": "Q47083",
+      "subject_label": "ом",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q25358",
+      "object_label": "электрическое сопротивление"
+    },
+    {
+      "subject_id": "Q25250",
+      "subject_label": "вольт",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q25428",
+      "object_label": "электрическое напряжение"
+    },
+    {
+      "subject_id": "Q523",
+      "subject_label": "звезда",
+      "predicate_id": "P398",
+      "predicate_label": "тело-спутник",
+      "object_id": "Q26540",
+      "object_label": "искусственный спутник"
+    },
+    {
+      "subject_id": "Q634",
+      "subject_label": "планета",
+      "predicate_id": "P398",
+      "predicate_label": "тело-спутник",
+      "object_id": "Q26540",
+      "object_label": "искусственный спутник"
+    },
+    {
+      "subject_id": "Q25272",
+      "subject_label": "ампер",
+      "predicate_id": "P111",
+      "predicate_label": "физическая величина",
+      "object_id": "Q29996",
+      "object_label": "сила тока"
+    },
+    {
+      "subject_id": "Q11412",
+      "subject_label": "гравитация",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q30006",
+      "object_label": "гравитационное ускорение"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q30006",
+      "object_label": "гравитационное ускорение"
+    },
+    {
+      "subject_id": "Q11408",
+      "subject_label": "магнитное поле",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q30204",
+      "object_label": "магнитная индукция"
+    },
+    {
+      "subject_id": "Q988780",
+      "subject_label": "электромагнитная индукция",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q30204",
+      "object_label": "магнитная индукция"
+    },
+    {
+      "subject_id": "Q83301",
+      "subject_label": "гром",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q33741",
+      "object_label": "молния"
+    },
+    {
+      "subject_id": "Q193139",
+      "subject_label": "траектория",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q34442",
+      "object_label": "дорога"
+    },
+    {
+      "subject_id": "Q847073",
+      "subject_label": "Евклидова метрика",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q36253",
+      "object_label": "длина"
+    },
+    {
+      "subject_id": "Q11369",
+      "subject_label": "молекула",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q36496",
+      "object_label": "ион"
+    },
+    {
+      "subject_id": "Q2348",
+      "subject_label": "нейтрон",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q9121",
+      "subject_label": "атом",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q11448",
+      "subject_label": "радиоактивность",
+      "predicate_id": "P12913",
+      "predicate_label": "класс объекта воздействия",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q40260",
+      "subject_label": "клеточное ядро",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q238323",
+      "subject_label": "ядерная реакция",
+      "predicate_id": "P710",
+      "predicate_label": "участник(и)",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q506710",
+      "subject_label": "гидрон",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q37147",
+      "object_label": "атомное ядро"
+    },
+    {
+      "subject_id": "Q634",
+      "subject_label": "планета",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q39297",
+      "object_label": "объём"
+    },
+    {
+      "subject_id": "Q11652",
+      "subject_label": "частота",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q39369",
+      "object_label": "герц"
+    },
+    {
+      "subject_id": "Q37147",
+      "subject_label": "атомное ядро",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q40260",
+      "object_label": "клеточное ядро"
+    },
+    {
+      "subject_id": "Q2305665",
+      "subject_label": "закон сохранения импульса",
+      "predicate_id": "P921",
+      "predicate_label": "основная тема",
+      "object_id": "Q41273",
+      "object_label": "импульс"
+    },
+    {
+      "subject_id": "Q37172",
+      "subject_label": "волна",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q41364",
+      "object_label": "длина волны"
+    },
+    {
+      "subject_id": "Q25358",
+      "subject_label": "электрическое сопротивление",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q41591",
+      "object_label": "закон Ома"
+    },
+    {
+      "subject_id": "Q11473",
+      "subject_label": "термодинамика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q45003",
+      "object_label": "энтропия"
+    },
+    {
+      "subject_id": "Q177625",
+      "subject_label": "электромагнитное поле",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q46221",
+      "object_label": "электрическое поле"
+    },
+    {
+      "subject_id": "Q155640",
+      "subject_label": "потенциальная энергия",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q46276",
+      "object_label": "кинетическая энергия"
+    },
+    {
+      "subject_id": "Q3198",
+      "subject_label": "фотон",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q46344",
+      "object_label": "квант"
+    },
+    {
+      "subject_id": "Q25358",
+      "subject_label": "электрическое сопротивление",
+      "predicate_id": "P8111",
+      "predicate_label": "рекомендуемая единица измерения",
+      "object_id": "Q47083",
+      "object_label": "ом"
+    },
+    {
+      "subject_id": "Q102836",
+      "subject_label": "пружина",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q62932",
+      "object_label": "упругость"
+    },
+    {
+      "subject_id": "Q165939",
+      "subject_label": "отражение",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q72277",
+      "object_label": "преломление"
+    },
+    {
+      "subject_id": "Q768575",
+      "subject_label": "линза",
+      "predicate_id": "P2283",
+      "predicate_label": "использует",
+      "object_id": "Q72277",
+      "object_label": "преломление"
+    },
+    {
+      "subject_id": "Q193139",
+      "subject_label": "траектория",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q79782",
+      "object_label": "движение"
+    },
+    {
+      "subject_id": "Q33741",
+      "subject_label": "молния",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q83301",
+      "object_label": "гром"
+    },
+    {
+      "subject_id": "Q170282",
+      "subject_label": "закон Гука",
+      "predicate_id": "P921",
+      "predicate_label": "основная тема",
+      "object_id": "Q102836",
+      "object_label": "пружина"
+    },
+    {
+      "subject_id": "Q11376",
+      "subject_label": "ускорение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11379",
+      "subject_label": "энергия",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11402",
+      "subject_label": "сила",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11423",
+      "subject_label": "масса",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11465",
+      "subject_label": "скорость",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11652",
+      "subject_label": "частота",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q25342",
+      "subject_label": "мощность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q25358",
+      "subject_label": "электрическое сопротивление",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q29539",
+      "subject_label": "плотность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q29996",
+      "subject_label": "сила тока",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q30006",
+      "subject_label": "гравитационное ускорение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q30204",
+      "subject_label": "магнитная индукция",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q39297",
+      "subject_label": "объём",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q41273",
+      "subject_label": "импульс",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q41364",
+      "subject_label": "длина волны",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q46276",
+      "subject_label": "кинетическая энергия",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q46344",
+      "subject_label": "квант",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q81809",
+      "subject_label": "атмосферное давление",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q124003",
+      "subject_label": "скорость звука",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q133673",
+      "subject_label": "спин",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q155640",
+      "subject_label": "потенциальная энергия",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q159190",
+      "subject_label": "амплитуда",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q161635",
+      "subject_label": "вектор угловой скорости",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q170749",
+      "subject_label": "поверхностное натяжение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q177897",
+      "subject_label": "индуктивность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q179388",
+      "subject_label": "теплоёмкость",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q180241",
+      "subject_label": "внутренняя энергия",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q317949",
+      "subject_label": "активность радиоактивного источника",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q487005",
+      "subject_label": "теплопроводность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q559265",
+      "subject_label": "оптическая сила",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q1185557",
+      "subject_label": "сила упругости",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q2352999",
+      "subject_label": "доза радиации",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q107715",
+      "object_label": "физическая величина"
+    },
+    {
+      "subject_id": "Q11423",
+      "subject_label": "масса",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q122508",
+      "object_label": "инерция"
+    },
+    {
+      "subject_id": "Q178733",
+      "subject_label": "центробежная сила",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q122508",
+      "object_label": "инерция"
+    },
+    {
+      "subject_id": "Q132629",
+      "subject_label": "электроцепь",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q124291",
+      "object_label": "проводник"
+    },
+    {
+      "subject_id": "Q11476",
+      "subject_label": "кинематика",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q128030",
+      "object_label": "динамика"
+    },
+    {
+      "subject_id": "Q169019",
+      "subject_label": "статика",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q128030",
+      "object_label": "динамика"
+    },
+    {
+      "subject_id": "Q11412",
+      "subject_label": "гравитация",
+      "predicate_id": "P2579",
+      "predicate_label": "изучается в",
+      "object_id": "Q134465",
+      "object_label": "классическая теория тяготения Ньютона"
+    },
+    {
+      "subject_id": "Q46276",
+      "subject_label": "кинетическая энергия",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q155640",
+      "object_label": "потенциальная энергия"
+    },
+    {
+      "subject_id": "Q179635",
+      "subject_label": "теплопередача",
+      "predicate_id": "P527",
+      "predicate_label": "состоит из",
+      "object_id": "Q160329",
+      "object_label": "конвекция"
+    },
+    {
+      "subject_id": "Q72277",
+      "subject_label": "преломление",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q165939",
+      "object_label": "отражение"
+    },
+    {
+      "subject_id": "Q128030",
+      "subject_label": "динамика",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q169019",
+      "object_label": "статика"
+    },
+    {
+      "subject_id": "Q20702",
+      "subject_label": "маятник",
+      "predicate_id": "P2283",
+      "predicate_label": "использует",
+      "object_id": "Q170475",
+      "object_label": "колебание"
+    },
+    {
+      "subject_id": "Q37172",
+      "subject_label": "волна",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q170475",
+      "object_label": "колебание"
+    },
+    {
+      "subject_id": "Q1751973",
+      "subject_label": "вынужденные колебания",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q170475",
+      "object_label": "колебание"
+    },
+    {
+      "subject_id": "Q3198",
+      "subject_label": "фотон",
+      "predicate_id": "P517",
+      "predicate_label": "фундаментальные взаимодействия",
+      "object_id": "Q177625",
+      "object_label": "электромагнитное поле"
+    },
+    {
+      "subject_id": "Q12969754",
+      "subject_label": "электромагнитное излучение",
+      "predicate_id": "P361",
+      "predicate_label": "является частью",
+      "object_id": "Q177625",
+      "object_label": "электромагнитное поле"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q178733",
+      "object_label": "центробежная сила"
+    },
+    {
+      "subject_id": "Q18335",
+      "subject_label": "излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q179635",
+      "object_label": "теплопередача"
+    },
+    {
+      "subject_id": "Q160329",
+      "subject_label": "конвекция",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q179635",
+      "object_label": "теплопередача"
+    },
+    {
+      "subject_id": "Q182453",
+      "subject_label": "адиабатический процесс",
+      "predicate_id": "P3113",
+      "predicate_label": "не включает",
+      "object_id": "Q179635",
+      "object_label": "теплопередача"
+    },
+    {
+      "subject_id": "Q6497624",
+      "subject_label": "сила плавучести",
+      "predicate_id": "P1343",
+      "predicate_label": "описывается в источнике",
+      "object_id": "Q181404",
+      "object_label": "закон Архимеда"
+    },
+    {
+      "subject_id": "Q170749",
+      "subject_label": "поверхностное натяжение",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q188603",
+      "object_label": "капиллярность"
+    },
+    {
+      "subject_id": "Q1290",
+      "subject_label": "Блез Паскаль",
+      "predicate_id": "P800",
+      "predicate_label": "известная работа",
+      "object_id": "Q190760",
+      "object_label": "Закон Паскаля"
+    },
+    {
+      "subject_id": "Q4130",
+      "subject_label": "орбита",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q193139",
+      "object_label": "траектория"
+    },
+    {
+      "subject_id": "Q79782",
+      "subject_label": "движение",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q193139",
+      "object_label": "траектория"
+    },
+    {
+      "subject_id": "Q1185557",
+      "subject_label": "сила упругости",
+      "predicate_id": "P828",
+      "predicate_label": "причиной является",
+      "object_id": "Q193514",
+      "object_label": "деформация"
+    },
+    {
+      "subject_id": "Q12453",
+      "subject_label": "измерение",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q196372",
+      "object_label": "погрешность измерения"
+    },
+    {
+      "subject_id": "Q11448",
+      "subject_label": "радиоактивность",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q317949",
+      "object_label": "активность радиоактивного источника"
+    },
+    {
+      "subject_id": "Q11382",
+      "subject_label": "закон сохранения энергии",
+      "predicate_id": "P460",
+      "predicate_label": "предположительно одно и то же с",
+      "object_id": "Q483948",
+      "object_label": "закон сохранения массы"
+    },
+    {
+      "subject_id": "Q4299309",
+      "subject_label": "невесомость",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q558066",
+      "object_label": "гравитационное поле"
+    },
+    {
+      "subject_id": "Q768575",
+      "subject_label": "линза",
+      "predicate_id": "P1552",
+      "predicate_label": "обладает свойством",
+      "object_id": "Q559265",
+      "object_label": "оптическая сила"
+    },
+    {
+      "subject_id": "Q1350230",
+      "subject_label": "Гумно",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q628858",
+      "object_label": "рабочее место"
+    },
+    {
+      "subject_id": "Q30204",
+      "subject_label": "магнитная индукция",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q988780",
+      "object_label": "электромагнитная индукция"
+    },
+    {
+      "subject_id": "Q177897",
+      "subject_label": "индуктивность",
+      "predicate_id": "P1889",
+      "predicate_label": "не путать с",
+      "object_id": "Q988780",
+      "object_label": "электромагнитная индукция"
+    },
+    {
+      "subject_id": "Q523",
+      "subject_label": "звезда",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1146001",
+      "object_label": "источник света"
+    },
+    {
+      "subject_id": "Q38867",
+      "subject_label": "лазер",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1146001",
+      "object_label": "источник света"
+    },
+    {
+      "subject_id": "Q193514",
+      "subject_label": "деформация",
+      "predicate_id": "P1542",
+      "predicate_label": "вызывает",
+      "object_id": "Q1185557",
+      "object_label": "сила упругости"
+    },
+    {
+      "subject_id": "Q11412",
+      "subject_label": "гравитация",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q11448",
+      "subject_label": "радиоактивность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q12725",
+      "subject_label": "электричество",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q18335",
+      "subject_label": "излучение",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q83213",
+      "subject_label": "фотоэффект",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q122508",
+      "subject_label": "инерция",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q133900",
+      "subject_label": "дифракция",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q160329",
+      "subject_label": "конвекция",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q170749",
+      "subject_label": "поверхностное натяжение",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q172858",
+      "subject_label": "резонанс",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q178036",
+      "subject_label": "Броуновское движение",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q186161",
+      "subject_label": "ионизирующее излучение",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q186161",
+      "subject_label": "ионизирующее излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q188603",
+      "subject_label": "капиллярность",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q988780",
+      "subject_label": "электромагнитная индукция",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q6497624",
+      "subject_label": "сила плавучести",
+      "predicate_id": "P31",
+      "predicate_label": "это частный случай понятия",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q14506045",
+      "subject_label": "оптическое явление",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q1293220",
+      "object_label": "физическое явление"
+    },
+    {
+      "subject_id": "Q1530280",
+      "subject_label": "равновесие",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q2945123",
+      "object_label": "центр масс/инерции/тяжести"
+    },
+    {
+      "subject_id": "Q25288",
+      "subject_label": "вес",
+      "predicate_id": "P461",
+      "predicate_label": "противоположно",
+      "object_id": "Q6497624",
+      "object_label": "сила плавучести"
+    },
+    {
+      "subject_id": "Q181404",
+      "subject_label": "закон Архимеда",
+      "predicate_id": "P921",
+      "predicate_label": "основная тема",
+      "object_id": "Q6497624",
+      "object_label": "сила плавучести"
+    },
+    {
+      "subject_id": "Q11388",
+      "subject_label": "инфракрасное излучение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q12969754",
+      "object_label": "электромагнитное излучение"
+    },
+    {
+      "subject_id": "Q11388",
+      "subject_label": "инфракрасное излучение",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q12969754",
+      "object_label": "электромагнитное излучение"
+    },
+    {
+      "subject_id": "Q649036",
+      "subject_label": "давление электромагнитного излучения",
+      "predicate_id": "P1269",
+      "predicate_label": "тематически относится к",
+      "object_id": "Q12969754",
+      "object_label": "электромагнитное излучение"
+    },
+    {
+      "subject_id": "Q1075",
+      "subject_label": "цвет",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q14506045",
+      "object_label": "оптическое явление"
+    },
+    {
+      "subject_id": "Q14620",
+      "subject_label": "оптика",
+      "predicate_id": "P2578",
+      "predicate_label": "предмет изучения",
+      "object_id": "Q14506045",
+      "object_label": "оптическое явление"
+    },
+    {
+      "subject_id": "Q40609",
+      "subject_label": "полярное сияние",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q14506045",
+      "object_label": "оптическое явление"
+    },
+    {
+      "subject_id": "Q165939",
+      "subject_label": "отражение",
+      "predicate_id": "P279",
+      "predicate_label": "подкласс от",
+      "object_id": "Q14506045",
+      "object_label": "оптическое явление"
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Физика - Граф знаний</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* ... (оставил ваш CSS без изменений, он большой — можно вставить тот же самый) ... */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh; color:#fff; overflow:hidden;
+        }
+        .container { display:flex; flex-direction:column; height:100vh; }
+        header { padding:15px 20px; background: rgba(0,0,0,0.3); backdrop-filter: blur(10px); z-index:100; }
+        h1 { text-align:center; font-size:1.5em; background: linear-gradient(90deg,#00d4ff,#7b2cbf); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:10px; }
+        .controls { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; align-items:center; }
+        .control-group { display:flex; align-items:center; gap:5px; }
+        .control-group label { font-size:0.85em; color:#aaa; }
+        input[type="text"], select { padding:8px 12px; border:1px solid rgba(255,255,255,0.2); border-radius:6px; background:rgba(255,255,255,0.1); color:#fff; font-size:13px; min-width:150px; }
+        input[type="text"]:focus, select:focus { outline:none; border-color:#00d4ff; }
+        button { padding:8px 16px; border:none; border-radius:6px; background: linear-gradient(90deg,#00d4ff,#7b2cbf); color:#fff; font-size:13px; cursor:pointer; transition:transform .2s, box-shadow .2s; }
+        button:hover { transform:translateY(-1px); box-shadow:0 3px 15px rgba(0,212,255,0.3); }
+        .stats { display:flex; gap:15px; justify-content:center; font-size:0.8em; color:#aaa; margin-top:8px; }
+        .stat-item { display:flex; align-items:center; gap:5px; }
+        .stat-value { color:#00d4ff; font-weight:bold; }
+        #graph-container { flex:1; position:relative; overflow:hidden; }
+        #graph { width:100%; height:100%; cursor:grab; display:block; }
+        #graph:active { cursor:grabbing; }
+        .node { cursor:pointer; transition:filter .2s; }
+        .node circle { stroke-width:2px; transition:all .2s; }
+        .node:hover circle { filter:brightness(1.3); stroke-width:3px; }
+        .node.selected circle { stroke:#fff !important; stroke-width:4px; filter:drop-shadow(0 0 10px currentColor); }
+        .node.dimmed { opacity:.2; }
+        .node.highlighted circle { filter: brightness(1.5) drop-shadow(0 0 8px currentColor); }
+        .node-label { font-size:11px; fill:#fff; pointer-events:none; text-shadow:0 0 3px rgba(0,0,0,0.8); opacity:0; transition:opacity .2s; }
+        .node-label.visible { opacity:1; }
+        .node:hover .node-label, .node.selected .node-label, .node.highlighted .node-label { opacity:1; }
+        .link { stroke-opacity:.4; transition:stroke-opacity .2s, stroke-width .2s; }
+        .link:hover { stroke-opacity:.8; stroke-width:3px !important; }
+        .link.dimmed { stroke-opacity:.05; }
+        .link.highlighted { stroke-opacity:.9; stroke-width:2.5px !important; }
+        .tooltip { position:absolute; background:rgba(26,26,46,0.95); border:1px solid rgba(255,255,255,0.2); border-radius:8px; padding:10px 14px; font-size:13px; pointer-events:none; opacity:0; transition:opacity .2s; max-width:300px; z-index:1000; backdrop-filter:blur(10px); }
+        .tooltip.visible { opacity:1; }
+        .tooltip-title { font-weight:bold; color:#00d4ff; margin-bottom:5px; }
+        .tooltip-content { color:#ccc; line-height:1.4; }
+        .legend { position:absolute; bottom:20px; left:20px; background:rgba(26,26,46,0.9); border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:12px 16px; max-height:200px; overflow-y:auto; z-index:50; backdrop-filter:blur(10px); }
+        .legend-title { font-size:0.85em; font-weight:bold; margin-bottom:8px; color:#aaa; }
+        .legend-item { display:flex; align-items:center; gap:8px; font-size:0.75em; margin-bottom:4px; cursor:pointer; padding:3px 5px; border-radius:4px; transition:background .2s; }
+        .legend-item:hover { background: rgba(255,255,255,0.1); }
+        .legend-item.disabled { opacity:.4; text-decoration:line-through; }
+        .legend-color { width:16px; height:8px; border-radius:2px; flex-shrink:0; }
+        .info-panel { position:absolute; top:20px; right:20px; background:rgba(26,26,46,0.9); border:1px solid rgba(255,255,255,0.1); border-radius:10px; padding:12px 16px; max-width:250px; z-index:50; backdrop-filter:blur(10px); font-size:0.85em; display:none; }
+        .info-panel.visible { display:block; }
+        .info-panel h3 { color:#00d4ff; margin-bottom:8px; font-size:1.1em; }
+        .info-panel p { color:#ccc; margin-bottom:5px; line-height:1.4; }
+        .loading { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:1.2em; color:#aaa; }
+        .instructions { position:absolute; bottom:20px; right:20px; background:rgba(26,26,46,0.8); border-radius:8px; padding:10px 14px; font-size:0.75em; color:#888; z-index:50; }
+        .instructions kbd { background:rgba(255,255,255,0.1); padding:2px 6px; border-radius:3px; font-family:monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 Граф знаний: Физика</h1>
+            <div class="controls">
+                <div class="control-group">
+                    <label>🔍 Поиск:</label>
+                    <input type="text" id="searchNode" placeholder="энергия, атом, сила...">
+                </div>
+                <div class="control-group">
+                    <label>Связь:</label>
+                    <select id="predicateFilter">
+                        <option value="">Все типы</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Размер:</label>
+                    <select id="sizeFilter">
+                        <option value="all">Все узлы</option>
+                        <option value="connected" selected>Только связанные</option>
+                        <option value="important">Важные (степень ≥ 3)</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <button onclick="applyFilters()">Применить</button>
+                </div>
+                <div class="control-group">
+                    <button onclick="resetGraph()">Сбросить</button>
+                </div>
+                <div class="control-group">
+                    <button onclick="toggleSimulation()" id="simToggle">⏸️ Пауза</button>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item"><span>Узлов:</span> <span class="stat-value" id="nodeCount">0</span></div>
+                <div class="stat-item"><span>Связей:</span> <span class="stat-value" id="edgeCount">0</span></div>
+                <div class="stat-item"><span>Отображается:</span> <span class="stat-value" id="displayedCount">0</span></div>
+            </div>
+        </header>
+
+        <div id="graph-container">
+            <svg id="graph" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="tooltip" id="tooltip"></div>
+            <div class="legend" id="legend">
+                <div class="legend-title">Типы связей (клик для фильтра)</div>
+            </div>
+            <div class="info-panel" id="infoPanel">
+                <h3 id="infoPanelTitle"></h3>
+                <div id="infoPanelContent"></div>
+            </div>
+            <div class="instructions">
+                <kbd>Перетаскивание</kbd> — перемещение узла |
+                <kbd>Колёсико</kbd> — масштаб |
+                <kbd>Клик</kbd> — выделить связи
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- глобальный стейт ---
+        let graphData = null;
+        let simulation = null;
+        let svg, g, zoom;
+        let nodes = [], links = [];
+        let selectedNode = null;
+        let predicateColors = {};
+        let hiddenPredicates = new Set();
+        let isSimulationRunning = true;
+
+        const colors = [
+            '#00d4ff', '#7b2cbf', '#ff6b6b', '#4ecdc4', '#45b7d1',
+            '#96ceb4', '#ffeaa7', '#fd79a8', '#a29bfe', '#6c5ce7',
+            '#00b894', '#e17055', '#fdcb6e', '#81ecec', '#74b9ff',
+            '#ff7675', '#55efc4', '#fab1a0', '#e84393', '#dfe6e9'
+        ];
+
+        function init() {
+            setupSVG();
+            loadGraphData();
+            setupControls();
+        }
+
+        function setupSVG() {
+            const container = document.getElementById('graph-container');
+            svg = d3.select('#graph');
+
+            const width = container.clientWidth || 800;
+            const height = container.clientHeight || 600;
+
+            // Правильный viewBox (без запятых) + width/height
+            svg.attr('viewBox', `0 0 ${width} ${height}`)
+               .attr('width', width)
+               .attr('height', height);
+
+            // zoom
+            zoom = d3.zoom().scaleExtent([0.1, 4]).on('zoom', (event) => {
+                if (g) g.attr('transform', event.transform);
+            });
+            svg.call(zoom);
+
+            // main group
+            g = svg.append('g');
+
+            // resize
+            window.addEventListener('resize', () => {
+                const w = container.clientWidth;
+                const h = container.clientHeight;
+                svg.attr('viewBox', `0 0 ${w} ${h}`).attr('width', w).attr('height', h);
+                if (simulation && typeof simulation.force === 'function') {
+                    simulation.force('center', d3.forceCenter(w/2, h/2));
+                }
+            });
+
+            // клик по фону — очистка
+            svg.on('click', () => clearSelection());
+        }
+
+        async function loadGraphData() {
+            try {
+                const response = await fetch('physics_compact.json');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                graphData = await response.json();
+
+                processData();
+                createSimulation();
+                render();
+                populateFilters();
+                updateStats();
+                buildLegend();
+            } catch (error) {
+                // Если fetch не удался — покажем ошибку в контейнере
+                document.getElementById('graph-container').innerHTML =
+                    `<div class="loading">Ошибка загрузки: ${error.message}. Если вы открываете файл локально (file://), запустите локальный сервер (например: python -m http.server).</div>`;
+                console.error('Load error:', error);
+            }
+        }
+
+        function processData() {
+            const nodeMap = new Map();
+            if (!graphData || !graphData.edges) {
+                nodes = []; links = [];
+                return;
+            }
+
+            graphData.edges.forEach(edge => {
+                const sid = edge.subject_id;
+                const oid = edge.object_id;
+
+                if (!nodeMap.has(sid)) {
+                    nodeMap.set(sid, {
+                        id: sid,
+                        label: edge.subject_label || (graphData.labels && graphData.labels[sid]) || sid,
+                        degree: 0
+                    });
+                }
+                if (!nodeMap.has(oid)) {
+                    nodeMap.set(oid, {
+                        id: oid,
+                        label: edge.object_label || (graphData.labels && graphData.labels[oid]) || oid,
+                        degree: 0
+                    });
+                }
+                nodeMap.get(sid).degree++;
+                nodeMap.get(oid).degree++;
+            });
+
+            nodes = Array.from(nodeMap.values());
+
+            links = graphData.edges.map((edge, i) => ({
+                id: i,
+                source: edge.subject_id,
+                target: edge.object_id,
+                predicate: edge.predicate_id,
+                predicateLabel: edge.predicate_label || (graphData.labels && graphData.labels[edge.predicate_id]) || edge.predicate_id
+            }));
+
+            // assign predicate colors
+            const predicates = [...new Set(links.map(l => l.predicate))];
+            predicates.forEach((p,i) => predicateColors[p] = colors[i % colors.length]);
+        }
+
+        function createSimulation() {
+            const container = document.getElementById('graph-container');
+            const width = container.clientWidth || 800;
+            const height = container.clientHeight || 600;
+
+            // если уже был - остановим
+            if (simulation) simulation.stop();
+
+            // d3.forceLink автоматически разрешит source/target по id
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(() => 80 + Math.random()*40).strength(0.5))
+                .force('charge', d3.forceManyBody().strength(-200).distanceMax(400))
+                .force('center', d3.forceCenter(width/2, height/2))
+                .force('collision', d3.forceCollide().radius(d => getNodeRadius(d) + 5))
+                .on('tick', ticked);
+        }
+
+        function getNodeRadius(d) {
+            return Math.max(5, Math.min(20, 5 + (d.degree || 0) * 2));
+        }
+
+        function ticked() {
+            // links могут иметь source/target как объекты
+            g.selectAll('.link')
+                .attr('x1', d => (d.source.x !== undefined ? d.source.x : d.source))
+                .attr('y1', d => (d.source.y !== undefined ? d.source.y : d.source))
+                .attr('x2', d => (d.target.x !== undefined ? d.target.x : d.target))
+                .attr('y2', d => (d.target.y !== undefined ? d.target.y : d.target));
+
+            g.selectAll('.node')
+                .attr('transform', d => `translate(${d.x},${d.y})`);
+        }
+
+        function render() {
+            // очистим группу
+            g.selectAll('*').remove();
+
+            // видимые связи (учитываем скрытые предикаты)
+            const visibleLinks = links.filter(l => !hiddenPredicates.has(l.predicate));
+
+            // узлы, которые имеют видимые связи
+            const connectedNodeIds = new Set();
+            visibleLinks.forEach(l => {
+                const sid = (l.source && l.source.id) ? l.source.id : l.source;
+                const tid = (l.target && l.target.id) ? l.target.id : l.target;
+                connectedNodeIds.add(sid);
+                connectedNodeIds.add(tid);
+            });
+
+            const sizeFilter = document.getElementById('sizeFilter').value;
+            let visibleNodes;
+            if (sizeFilter === 'connected') visibleNodes = nodes.filter(n => connectedNodeIds.has(n.id));
+            else if (sizeFilter === 'important') visibleNodes = nodes.filter(n => (n.degree || 0) >= 3);
+            else visibleNodes = nodes.slice();
+
+            const visibleNodeIds = new Set(visibleNodes.map(n => n.id));
+            const filteredLinks = visibleLinks.filter(l => visibleNodeIds.has(l.source.id || l.source) && visibleNodeIds.has(l.target.id || l.target));
+
+            // обновим sim
+            simulation.nodes(visibleNodes);
+            if (simulation.force) {
+                const linkForce = simulation.force('link');
+                if (linkForce) linkForce.links(filteredLinks);
+            }
+            simulation.alpha(0.3).restart();
+
+            // отрисовка ссылок
+            const linkG = g.append('g').attr('class','links')
+                .selectAll('line')
+                .data(filteredLinks, d => d.id)
+                .enter()
+                .append('line')
+                .attr('class','link')
+                .attr('stroke', d => predicateColors[d.predicate] || '#888')
+                .attr('stroke-width', 1.5)
+                .on('mouseover', showLinkTooltip)
+                .on('mouseout', hideTooltip);
+
+            // отрисовка узлов
+            const nodeG = g.append('g').attr('class','nodes')
+                .selectAll('.node')
+                .data(visibleNodes, d => d.id)
+                .enter()
+                .append('g')
+                .attr('class','node')
+                .call(d3.drag()
+                    .on('start', dragStarted)
+                    .on('drag', dragged)
+                    .on('end', dragEnded))
+                .on('click', nodeClicked)
+                .on('mouseover', showNodeTooltip)
+                .on('mouseout', hideTooltip);
+
+            nodeG.append('circle')
+                .attr('r', d => getNodeRadius(d))
+                .attr('fill', d => {
+                    const hue = 180 + (d.degree || 0) * 15;
+                    return `hsl(${hue}, 70%, 50%)`;
+                })
+                .attr('stroke', d => `hsl(${180 + (d.degree || 0) * 15}, 70%, 70%)`);
+
+            nodeG.append('text')
+                .attr('class', d => (d.degree >= 3 ? 'node-label visible' : 'node-label'))
+                .attr('dy', d => getNodeRadius(d) + 12)
+                .attr('text-anchor', 'middle')
+                .text(d => d.label && d.label.length > 20 ? d.label.substring(0,18) + '...' : d.label);
+
+            // обновляем статистику: отображаемые узлы и связи
+            document.getElementById('displayedCount').textContent = `${visibleNodes.length} / ${filteredLinks.length}`;
+
+            // сохраним ссылки на элементы для дальнейших манипуляций
+            window.linkElements = linkG;
+            window.nodeElements = nodeG;
+        }
+
+        function dragStarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x; d.fy = d.y;
+        }
+        function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+        function dragEnded(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null; d.fy = null;
+        }
+
+        function nodeClicked(event, d) {
+            event.stopPropagation();
+            if (selectedNode === d) { clearSelection(); return; }
+            selectedNode = d;
+
+            const connectedIds = new Set([d.id]);
+            links.forEach(l => {
+                const s = l.source && l.source.id ? l.source.id : l.source;
+                const t = l.target && l.target.id ? l.target.id : l.target;
+                if (s === d.id) connectedIds.add(t);
+                if (t === d.id) connectedIds.add(s);
+            });
+
+            // применяем классы к узлам/ссылкам
+            if (window.nodeElements) {
+                window.nodeElements.classed('dimmed', n => !connectedIds.has(n.id))
+                    .classed('selected', n => n.id === d.id)
+                    .classed('highlighted', n => connectedIds.has(n.id) && n.id !== d.id);
+            }
+            if (window.linkElements) {
+                window.linkElements.classed('dimmed', l => {
+                    const s = l.source && l.source.id ? l.source.id : l.source;
+                    const t = l.target && l.target.id ? l.target.id : l.target;
+                    return s !== d.id && t !== d.id;
+                }).classed('highlighted', l => {
+                    const s = l.source && l.source.id ? l.source.id : l.source;
+                    const t = l.target && l.target.id ? l.target.id : l.target;
+                    return s === d.id || t === d.id;
+                });
+            }
+
+            showInfoPanel(d);
+        }
+
+        function clearSelection() {
+            selectedNode = null;
+            if (window.nodeElements) window.nodeElements.classed('dimmed', false).classed('selected', false).classed('highlighted', false);
+            if (window.linkElements) window.linkElements.classed('dimmed', false).classed('highlighted', false);
+            document.getElementById('infoPanel').classList.remove('visible');
+        }
+
+        function showNodeTooltip(event, d) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.innerHTML = `<div class="tooltip-title">${d.label}</div>
+                <div class="tooltip-content"><div>ID: ${d.id}</div><div>Связей: ${d.degree}</div></div>`;
+            tooltip.style.left = (event.pageX + 15) + 'px';
+            tooltip.style.top = (event.pageY - 10) + 'px';
+            tooltip.classList.add('visible');
+        }
+
+        function showLinkTooltip(event, d) {
+            const tooltip = document.getElementById('tooltip');
+            const sourceLabel = d.source && d.source.label ? d.source.label : (nodes.find(n => n.id === (d.source.id || d.source)) || {}).label || (d.source.id || d.source);
+            const targetLabel = d.target && d.target.label ? d.target.label : (nodes.find(n => n.id === (d.target.id || d.target)) || {}).label || (d.target.id || d.target);
+            tooltip.innerHTML = `<div class="tooltip-title">${d.predicateLabel}</div><div class="tooltip-content"><div>${sourceLabel} → ${targetLabel}</div></div>`;
+            tooltip.style.left = (event.pageX + 15) + 'px';
+            tooltip.style.top = (event.pageY - 10) + 'px';
+            tooltip.classList.add('visible');
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').classList.remove('visible');
+        }
+
+        function showInfoPanel(d) {
+            const panel = document.getElementById('infoPanel');
+            const title = document.getElementById('infoPanelTitle');
+            const content = document.getElementById('infoPanelContent');
+
+            title.textContent = d.label;
+
+            const connections = [];
+            links.forEach(l => {
+                const s = l.source && l.source.id ? l.source.id : l.source;
+                const t = l.target && l.target.id ? l.target.id : l.target;
+                if (s === d.id) connections.push({ node: t, label: l.predicateLabel, direction: '→' });
+                else if (t === d.id) connections.push({ node: s, label: l.predicateLabel, direction: '←' });
+            });
+
+            let html = `<p><strong>Степень:</strong> ${d.degree}</p>`;
+            html += '<p><strong>Связи:</strong></p><p style="font-size:0.9em">';
+            connections.slice(0,10).forEach(c => {
+                const nodeLabel = (nodes.find(n => n.id === c.node) || {}).label || c.node;
+                html += `${c.direction} ${c.label}: ${nodeLabel}<br>`;
+            });
+            if (connections.length > 10) html += `... и ещё ${connections.length - 10}`;
+            html += '</p>';
+            content.innerHTML = html;
+            panel.classList.add('visible');
+        }
+
+        function populateFilters() {
+            const preds = new Map();
+            links.forEach(l => { if (!preds.has(l.predicate)) preds.set(l.predicate, l.predicateLabel); });
+            const select = document.getElementById('predicateFilter');
+            // очистим кроме первого option
+            [...select.querySelectorAll('option:not(:first-child)')].forEach(o => o.remove());
+            const sorted = [...preds.entries()].sort((a,b) => a[1].localeCompare(b[1], 'ru'));
+            sorted.forEach(([id,label]) => {
+                const option = document.createElement('option');
+                option.value = id;
+                option.textContent = label;
+                select.appendChild(option);
+            });
+        }
+
+        function updateStats() {
+            document.getElementById('nodeCount').textContent = nodes.length;
+            document.getElementById('edgeCount').textContent = links.length;
+        }
+
+        function buildLegend() {
+            const legend = document.getElementById('legend');
+            // уберём старые элементы, кроме заголовка
+            [...legend.querySelectorAll('.legend-item')].forEach(n => n.remove());
+
+            const preds = new Map();
+            links.forEach(l => { if (!preds.has(l.predicate)) preds.set(l.predicate, l.predicateLabel); });
+            const sorted = [...preds.entries()].sort((a,b) => a[1].localeCompare(b[1], 'ru'));
+
+            sorted.forEach(([id,label]) => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.dataset.predicate = id; // ключевой момент: сохраним id
+                item.innerHTML = `
+                    <div class="legend-color" style="background: ${predicateColors[id] || '#888'}"></div>
+                    <span>${label}</span>
+                `;
+                item.onclick = () => togglePredicate(id, item);
+                legend.appendChild(item);
+            });
+        }
+
+        function togglePredicate(predicateId, element) {
+            if (hiddenPredicates.has(predicateId)) {
+                hiddenPredicates.delete(predicateId);
+                element.classList.remove('disabled');
+            } else {
+                hiddenPredicates.add(predicateId);
+                element.classList.add('disabled');
+            }
+            render();
+        }
+
+        function setupControls() {
+            document.getElementById('searchNode').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') applyFilters();
+            });
+            document.getElementById('sizeFilter').addEventListener('change', render);
+            document.getElementById('predicateFilter').addEventListener('change', () => {
+                applyFilters();
+            });
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchNode').value.toLowerCase().trim();
+            const predicateFilter = document.getElementById('predicateFilter').value;
+
+            // сбросим легенду
+            hiddenPredicates.clear();
+            document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('disabled'));
+
+            if (predicateFilter) {
+                Object.keys(predicateColors).forEach(p => { if (p !== predicateFilter) hiddenPredicates.add(p); });
+                // пометим элементы легенды, опираясь на data-predicate
+                document.querySelectorAll('.legend-item').forEach(el => {
+                    if (el.dataset.predicate && el.dataset.predicate !== predicateFilter) el.classList.add('disabled');
+                });
+            }
+
+            render();
+
+            // поиск по узлу
+            if (searchTerm) {
+                const matchedNode = nodes.find(n => (n.label && n.label.toLowerCase().includes(searchTerm)) || (n.id && n.id.toLowerCase().includes(searchTerm)));
+                if (matchedNode) {
+                    const container = document.getElementById('graph-container');
+                    const width = container.clientWidth;
+                    const height = container.clientHeight;
+
+                    svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity
+                        .translate(width/2, height/2)
+                        .scale(1.5)
+                        .translate(-matchedNode.x, -matchedNode.y));
+
+                    // клик по найденному узлу чуть позже
+                    setTimeout(() => {
+                        if (!window.nodeElements) return;
+                        const sel = window.nodeElements.filter(d => d.id === matchedNode.id);
+                        const data = sel.size ? sel.datum() : sel.datum && sel.datum();
+                        // .datum() на отфильтрованной selection вернёт datum первого элемента
+                        const nodeData = sel.empty ? (sel.datum && sel.datum()) : (sel.empty && null);
+                        // проще: если selection не пуст — вызовем click на элементе DOM
+                        const nodeElem = sel.node ? sel.node() : null;
+                        if (nodeElem) nodeElem.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    }, 800);
+                }
+            }
+        }
+
+        function resetGraph() {
+            document.getElementById('searchNode').value = '';
+            document.getElementById('predicateFilter').value = '';
+            document.getElementById('sizeFilter').value = 'connected';
+            hiddenPredicates.clear();
+            document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('disabled'));
+            clearSelection();
+            render();
+
+            // сброс зума
+            const container = document.getElementById('graph-container');
+            const w = container.clientWidth;
+            const h = container.clientHeight;
+            svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
+        }
+
+        function toggleSimulation() {
+            const btn = document.getElementById('simToggle');
+            if (isSimulationRunning) {
+                simulation.stop();
+                btn.textContent = '▶️ Запуск';
+                isSimulationRunning = false;
+            } else {
+                simulation.alpha(0.3).restart();
+                btn.textContent = '⏸️ Пауза';
+                isSimulationRunning = true;
+            }
+        }
+
+        // старт
+        init();
+    </script>
+</body>
+</html>
