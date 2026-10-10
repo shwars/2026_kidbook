@@ -1,0 +1,19 @@
+# Основные сведения о понятиях раздела: название, описание, синонимы,
+# родительские понятия (P171 родительский таксон, P279 подкласс, P31 экземпляр),
+# изображение (P18), латинское название (P225) и статья в русской Википедии.
+# Если значений несколько (например, несколько картинок), берётся минимальное,
+# чтобы результат не зависел от порядка строк в ответе.
+SELECT ?item ?label ?description ?enLabel
+       (MIN(?taxonName_) AS ?taxonName) (MIN(?image_) AS ?image) (MIN(?article_) AS ?article)
+       (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases)
+WHERE {
+  VALUES ?item { %%ITEMS%% }
+  OPTIONAL { ?item rdfs:label ?label FILTER(lang(?label) = "ru") }
+  OPTIONAL { ?item schema:description ?description FILTER(lang(?description) = "ru") }
+  OPTIONAL { ?item rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }
+  OPTIONAL { ?item skos:altLabel ?alias FILTER(lang(?alias) = "ru") }
+  OPTIONAL { ?item wdt:P225 ?taxonName_ }
+  OPTIONAL { ?item wdt:P18 ?image_ }
+  OPTIONAL { ?article_ schema:about ?item; schema:isPartOf <https://ru.wikipedia.org/> }
+}
+GROUP BY ?item ?label ?description ?enLabel

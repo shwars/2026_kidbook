@@ -1,0 +1,7 @@
+# Родительские понятия: родительский таксон (P171), подкласс (P279), экземпляр (P31).
+SELECT ?item ?prop ?parent ?parentLabel WHERE {
+  VALUES ?item { %%ITEMS%% }
+  VALUES ?prop { wdt:P171 wdt:P279 wdt:P31 }
+  ?item ?prop ?parent .
+  ?parent rdfs:label ?parentLabel FILTER(lang(?parentLabel) = "ru")
+}

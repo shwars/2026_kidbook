@@ -1,0 +1,561 @@
+[
+  {
+    "section": "1.2_natural_sciences",
+    "topic": "Животный мир: как устроены и как живут животные",
+    "author_group": "Бойцов Иван, Цыбулько Даниил, Дудовцев Андрей",
+    "members": [
+      "Бойцов Иван",
+      "Цыбулько Даниил",
+      "Дудовцев Андрей"
+    ],
+    "concepts": [
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/animals",
+        "description": "Что отличает животных от растений и грибов, как учёные делят животных на группы и почему животные двигаются, дышат и питаются готовой пищей.",
+        "lemmas": [
+          "животные",
+          "животное",
+          "царство животных",
+          "животный мир",
+          "фауна",
+          "живое существо",
+          "животные организмы",
+          "существо"
+        ],
+        "name": "Животные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/animals.md",
+        "wikidata_id": "Q729",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "lives_in",
+            "label": "живут в",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/habitat"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates",
+        "description": "О животных с внутренним скелетом и позвоночником: какие группы к ним относятся, зачем нужен позвоночник и чем позвоночные отличаются от беспозвоночных.",
+        "lemmas": [
+          "позвоночные",
+          "позвоночное животное",
+          "позвоночник",
+          "скелет",
+          "позвоночные животные"
+        ],
+        "name": "Позвоночные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates.md",
+        "wikidata_id": "Q25241",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/animals"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/invertebrates",
+        "description": "О животных без позвоночника: черви, моллюски, медузы, насекомые и пауки, их панцири и раковины, и почему беспозвоночных на Земле больше всего.",
+        "lemmas": [
+          "беспозвоночные",
+          "беспозвоночное животное",
+          "моллюск",
+          "червь",
+          "медуза",
+          "экзоскелет",
+          "беспозвоночные животные"
+        ],
+        "name": "Беспозвоночные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/invertebrates.md",
+        "wikidata_id": "Q43806",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/animals"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/mammals",
+        "description": "О теплокровных животных, которые выкармливают детёнышей молоком: шерсть, забота о потомстве, главные отряды млекопитающих и необычные представители вроде кита и летучей мыши.",
+        "lemmas": [
+          "млекопитающие",
+          "млекопитающее",
+          "зверь",
+          "молоко"
+        ],
+        "name": "Млекопитающие",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/mammals.md",
+        "wikidata_id": "Q7377",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/hibernation"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/birds",
+        "description": "О птицах: перья, полые кости и крылья, как птицы летают, строят гнёзда, высиживают яйца и почему птиц считают потомками динозавров.",
+        "lemmas": [
+          "птицы",
+          "птица",
+          "перо",
+          "пернатые"
+        ],
+        "name": "Птицы",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/birds.md",
+        "wikidata_id": "Q5113",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates"
+          },
+          {
+            "type": "eats",
+            "label": "питаются",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/insects"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/migration"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/reptiles",
+        "description": "О пресмыкающихся (рептилиях): чешуя, холоднокровность, яйца с кожистой скорлупой, ящерицы, змеи, черепахи и крокодилы.",
+        "lemmas": [
+          "пресмыкающиеся",
+          "рептилия",
+          "рептилии",
+          "ящерица",
+          "змея",
+          "черепаха",
+          "крокодил",
+          "пресмыкающееся"
+        ],
+        "name": "Пресмыкающиеся",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/reptiles.md",
+        "wikidata_id": "Q10811",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/hibernation"
+          },
+          {
+            "type": "protects_by",
+            "label": "защищаются с помощью",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/camouflage"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/amphibians",
+        "description": "О земноводных (амфибиях), которые живут и в воде, и на суше: лягушки, жабы, тритоны и саламандры, влажная кожа и превращение головастика во взрослое животное.",
+        "lemmas": [
+          "земноводные",
+          "амфибия",
+          "амфибии",
+          "лягушка",
+          "жаба",
+          "тритон",
+          "саламандра",
+          "головастик",
+          "голые гады",
+          "земноводное"
+        ],
+        "name": "Земноводные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/amphibians.md",
+        "wikidata_id": "Q10908",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates"
+          },
+          {
+            "type": "eats",
+            "label": "питаются",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/insects"
+          },
+          {
+            "type": "develops_by",
+            "label": "развиваются через",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/metamorphosis"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/hibernation"
+          },
+          {
+            "type": "protects_by",
+            "label": "защищаются с помощью",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/camouflage"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/fish",
+        "description": "О рыбах: жабры, плавники, чешуя и плавательный пузырь, как рыбы дышат под водой, где живут и чем акула отличается от карася.",
+        "lemmas": [
+          "рыбы",
+          "рыба",
+          "жабры",
+          "плавник",
+          "акула",
+          "плавательный пузырь"
+        ],
+        "name": "Рыбы",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/fish.md",
+        "wikidata_id": "Q152",
+        "author": "Бойцов Иван",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/vertebrates"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/migration"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/insects",
+        "description": "О насекомых: шесть ног, три части тела, усики и крылья, жуки, бабочки, муравьи и пчёлы, и почему без насекомых не было бы многих растений.",
+        "lemmas": [
+          "насекомые",
+          "насекомое",
+          "жук",
+          "бабочка",
+          "муравей",
+          "пчела",
+          "гусеница",
+          "усики"
+        ],
+        "name": "Насекомые",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/insects.md",
+        "wikidata_id": "Q1390",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/invertebrates"
+          },
+          {
+            "type": "develops_by",
+            "label": "развиваются через",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/metamorphosis"
+          },
+          {
+            "type": "behavior",
+            "label": "особенность поведения",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/migration"
+          },
+          {
+            "type": "protects_by",
+            "label": "защищаются с помощью",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/camouflage"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/arachnids",
+        "description": "О паукообразных: восемь ног, паутина и яд, пауки, клещи и скорпионы, чем паук отличается от насекомого и какую пользу приносят пауки.",
+        "lemmas": [
+          "паукообразные",
+          "паук",
+          "клещ",
+          "скорпион",
+          "аранеиды",
+          "арахнид",
+          "арахниды"
+        ],
+        "name": "Паукообразные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/arachnids.md",
+        "wikidata_id": "Q1358",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "subclass_of",
+            "label": "входят в группу",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/invertebrates"
+          },
+          {
+            "type": "eats",
+            "label": "питаются",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/insects"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/predators",
+        "description": "О хищных (плотоядных) животных, которые охотятся на других животных: клыки и когти, способы охоты и почему хищники нужны природе.",
+        "lemmas": [
+          "хищники",
+          "хищник",
+          "хищное животное",
+          "плотоядные",
+          "плотоядное животное",
+          "охота",
+          "добыча",
+          "зоофаги",
+          "карниворы",
+          "мясоеды",
+          "плотоядные животные"
+        ],
+        "name": "Хищники",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/predators.md",
+        "wikidata_id": "Q81875",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "feeding_group_of",
+            "label": "группа по типу питания",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/animals"
+          },
+          {
+            "type": "eats",
+            "label": "питаются",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/herbivores"
+          },
+          {
+            "type": "link_of",
+            "label": "звено",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/food_chain"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/herbivores",
+        "description": "О растительноядных животных: как они переваривают траву и листья, зачем корове несколько отделов желудка и как травоядные спасаются от хищников.",
+        "lemmas": [
+          "травоядные",
+          "травоядное животное",
+          "растительноядные",
+          "фитофаги",
+          "жвачка",
+          "травоядное",
+          "фитофаг"
+        ],
+        "name": "Травоядные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/herbivores.md",
+        "wikidata_id": "Q59099",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "feeding_group_of",
+            "label": "группа по типу питания",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/animals"
+          },
+          {
+            "type": "link_of",
+            "label": "звено",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/food_chain"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/omnivores",
+        "description": "О всеядных животных, которые едят и растения, и животных: медведи, кабаны, вороны, ежи, и почему всеядность помогает выжить.",
+        "lemmas": [
+          "всеядные",
+          "всеядное животное",
+          "всеядность",
+          "миксофагия",
+          "пантофагия",
+          "эврифагия"
+        ],
+        "name": "Всеядные",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/omnivores.md",
+        "wikidata_id": "Q30898693",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "feeding_group_of",
+            "label": "группа по типу питания",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/animals"
+          },
+          {
+            "type": "link_of",
+            "label": "звено",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/food_chain"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/food_chain",
+        "description": "О том, кто кого ест в природе: растения, травоядные и хищники как звенья пищевой цепи, пищевые сети и что происходит, если одно звено пропадает.",
+        "lemmas": [
+          "пищевая цепь",
+          "цепь питания",
+          "пищевая сеть",
+          "звено",
+          "редуценты",
+          "пищевая связь",
+          "пищевая цепочка",
+          "трофическая цепь"
+        ],
+        "name": "Пищевая цепь",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/food_chain.md",
+        "wikidata_id": "Q159462",
+        "author": "Цыбулько Даниил",
+        "relations": [
+          {
+            "type": "depends_on",
+            "label": "зависит от",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/habitat"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/habitat",
+        "description": "О местах, где живут животные: лес, степь, пустыня, океан, тундра и город, и как животные приспосабливаются к жаре, холоду и воде.",
+        "lemmas": [
+          "среда обитания",
+          "местообитание",
+          "место обитания",
+          "экосистема",
+          "приспособление",
+          "жизненное пространство"
+        ],
+        "name": "Среда обитания",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/habitat.md",
+        "wikidata_id": "Q52105",
+        "author": "Дудовцев Андрей",
+        "relations": [
+          {
+            "type": "leads_to",
+            "label": "разрушение ведёт к",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/endangered_species"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/migration",
+        "description": "О дальних путешествиях животных: перелётные птицы, лососи, киты и бабочки-монархи, зачем животные мигрируют и как находят дорогу.",
+        "lemmas": [
+          "миграция животных",
+          "миграция",
+          "перелёт",
+          "перелётные птицы",
+          "кочевье",
+          "миграции животных"
+        ],
+        "name": "Миграция животных",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/migration.md",
+        "wikidata_id": "Q193145",
+        "author": "Дудовцев Андрей",
+        "relations": [
+          {
+            "type": "changes",
+            "label": "меняет",
+            "target": "WEB/1.2_natural_sciences/animal_world/articles/habitat"
+          }
+        ]
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/hibernation",
+        "description": "О том, как животные переживают зиму и нехватку еды: зимняя спячка ежа и сурка, зимний сон медведя, оцепенение лягушек и ящериц.",
+        "lemmas": [
+          "спячка",
+          "зимняя спячка",
+          "зимний сон",
+          "оцепенение",
+          "берлога",
+          "эстивация"
+        ],
+        "name": "Спячка",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/hibernation.md",
+        "wikidata_id": "Q159408",
+        "author": "Дудовцев Андрей",
+        "relations": []
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/metamorphosis",
+        "description": "О превращениях животных: яйцо, гусеница, куколка и бабочка, головастик и лягушка, полное и неполное превращение.",
+        "lemmas": [
+          "метаморфоз",
+          "превращение",
+          "личинка",
+          "куколка",
+          "полное превращение",
+          "жизненные формы животных",
+          "метаболия",
+          "метаморфоза животных",
+          "преобразование животных"
+        ],
+        "name": "Метаморфоз",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/metamorphosis.md",
+        "wikidata_id": "Q33753",
+        "author": "Дудовцев Андрей",
+        "relations": []
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/camouflage",
+        "description": "О защитной окраске и маскировке: хамелеон, палочник, белый заяц зимой, мимикрия и как окраска помогает и прятаться, и охотиться.",
+        "lemmas": [
+          "маскировка",
+          "защитная окраска",
+          "камуфляж",
+          "мимикрия",
+          "хамелеон",
+          "палочник",
+          "скрытность"
+        ],
+        "name": "Маскировка",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/camouflage.md",
+        "wikidata_id": "Q196327",
+        "author": "Дудовцев Андрей",
+        "relations": []
+      },
+      {
+        "id": "WEB/1.2_natural_sciences/animal_world/articles/endangered_species",
+        "description": "О животных, которым грозит исчезновение: почему виды вымирают, что такое Красная книга, заповедники и как каждый может помочь природе.",
+        "lemmas": [
+          "вымирающие виды",
+          "вымирающий вид",
+          "исчезающие животные",
+          "Красная книга",
+          "заповедник",
+          "вымирание",
+          "исчезающие виды",
+          "исчезающий вид"
+        ],
+        "name": "Вымирающие виды",
+        "file": "WEB/1.2_natural_sciences/animal_world/articles/endangered_species.md",
+        "wikidata_id": "Q11394",
+        "author": "Дудовцев Андрей",
+        "relations": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+# Животные-примеры по латинскому названию (P225): русское название, описание,
+# охранный статус МСОП (P141), изображение (P18), число статей в Википедиях.
+SELECT ?taxonName ?item ?label ?description ?statusLabel (MIN(?image_) AS ?image) ?sitelinks WHERE {
+  VALUES ?taxonName { %%NAMES%% }
+  ?item wdt:P225 ?taxonName ;
+        wikibase:sitelinks ?sitelinks .
+  OPTIONAL { ?item rdfs:label ?label FILTER(lang(?label) = "ru") }
+  OPTIONAL { ?item schema:description ?description FILTER(lang(?description) = "ru") }
+  OPTIONAL { ?item wdt:P141 ?status . ?status rdfs:label ?statusLabel FILTER(lang(?statusLabel) = "ru") }
+  OPTIONAL { ?item wdt:P18 ?image_ }
+}
+GROUP BY ?taxonName ?item ?label ?description ?statusLabel ?sitelinks
+ORDER BY ?taxonName DESC(?sitelinks)

@@ -1,0 +1,1683 @@
+{
+  "fish": {
+    "wikidata_id": "Q152",
+    "label": "рыбы",
+    "description": "парафилетическая группа водных позвоночных животных",
+    "label_en": "fish",
+    "taxon_name": "Pisces",
+    "aliases": [
+      "Pisces",
+      "рыба"
+    ],
+    "image": "Fish-coll002.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%A0%D1%8B%D0%B1%D1%8B",
+    "parents": [
+      {
+        "property": "P171",
+        "id": "Q26214",
+        "label": "челюстноротые"
+      },
+      {
+        "property": "P279",
+        "id": "Q1756633",
+        "label": "водное животное"
+      },
+      {
+        "property": "P31",
+        "id": "Q2612572",
+        "label": "града"
+      },
+      {
+        "property": "P279",
+        "id": "Q1230015",
+        "label": "морская жизнь"
+      },
+      {
+        "property": "P31",
+        "id": "Q55983715",
+        "label": "группа организмов, известная по народному названию"
+      },
+      {
+        "property": "P31",
+        "id": "Q58051350",
+        "label": "парафилетическая группа"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q128685",
+        "label": "угреобразные",
+        "sitelinks": 97
+      },
+      {
+        "id": "Q206948",
+        "label": "удильщикообразные",
+        "sitelinks": 61
+      },
+      {
+        "id": "Q41317",
+        "label": "электрические скаты",
+        "sitelinks": 59
+      },
+      {
+        "id": "Q5290058",
+        "label": "химерообразные",
+        "sitelinks": 56
+      },
+      {
+        "id": "Q216241",
+        "label": "трескообразные",
+        "sitelinks": 54
+      },
+      {
+        "id": "Q208777",
+        "label": "скорпенообразные",
+        "sitelinks": 54
+      },
+      {
+        "id": "Q217458",
+        "label": "харацинообразные",
+        "sitelinks": 53
+      },
+      {
+        "id": "Q211837",
+        "label": "иглобрюхообразные",
+        "sitelinks": 51
+      },
+      {
+        "id": "Q224470",
+        "label": "ламнообразные",
+        "sitelinks": 47
+      },
+      {
+        "id": "Q260031",
+        "label": "воббегонгообразные",
+        "sitelinks": 46
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Carcharodon carcharias",
+        "id": "Q129026",
+        "label": "белая акула",
+        "description": "морское животное",
+        "status": "уязвимый вид",
+        "image": "202410 Great white shark.svg"
+      },
+      {
+        "taxon_name": "Salmo salar",
+        "id": "Q188879",
+        "label": "сёмга",
+        "description": "вид лососёвых рыб из рода лососей",
+        "status": "близки к уязвимому положению",
+        "image": "202409 Atlantic Salmon.svg"
+      },
+      {
+        "taxon_name": "Esox lucius",
+        "id": "Q165278",
+        "label": "щука",
+        "description": "рыба семейства щуковых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Esox Lucius.JPG"
+      },
+      {
+        "taxon_name": "Carassius gibelio",
+        "id": "Q725983",
+        "label": "серебряный карась",
+        "description": "вид рыб",
+        "status": null,
+        "image": "Carassius gibelio 2008 G1.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Fish-coll002.jpg",
+    "image_file": "images/fish.jpg"
+  },
+  "birds": {
+    "wikidata_id": "Q5113",
+    "label": "птицы",
+    "description": "класс позвоночных животных",
+    "label_en": "bird",
+    "taxon_name": "Aves",
+    "aliases": [
+      "птица"
+    ],
+    "image": "Bird Diversity 2011.png",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D1%82%D0%B8%D1%86%D1%8B",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q25241",
+        "label": "позвоночные"
+      },
+      {
+        "property": "P31",
+        "id": "Q55983715",
+        "label": "группа организмов, известная по народному названию"
+      },
+      {
+        "property": "P171",
+        "id": "Q3239179",
+        "label": "Ornithurae"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q25222",
+        "label": "совообразные",
+        "sitelinks": 186
+      },
+      {
+        "id": "Q21659",
+        "label": "курообразные",
+        "sitelinks": 104
+      },
+      {
+        "id": "Q21651",
+        "label": "гусеобразные",
+        "sitelinks": 98
+      },
+      {
+        "id": "Q25978",
+        "label": "ржанкообразные",
+        "sitelinks": 87
+      },
+      {
+        "id": "Q19338",
+        "label": "пеликанообразные",
+        "sitelinks": 84
+      },
+      {
+        "id": "Q21736",
+        "label": "ястребообразные",
+        "sitelinks": 80
+      },
+      {
+        "id": "Q21716",
+        "label": "аистообразные",
+        "sitelinks": 79
+      },
+      {
+        "id": "Q25370",
+        "label": "соколообразные",
+        "sitelinks": 76
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Ciconia ciconia",
+        "id": "Q25352",
+        "label": "белый аист",
+        "description": "вид птиц из семейства аистовых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "00 4439 Storchennest mit Küken.jpg"
+      },
+      {
+        "taxon_name": "Grus grus",
+        "id": "Q4764",
+        "label": "серый журавль",
+        "description": "крупная птица, второй по численности вид журавлей",
+        "status": "находятся под наименьшей угрозой",
+        "image": "2017.07.04.-01-Wendisch Rietz--Kranich.jpg"
+      },
+      {
+        "taxon_name": "Corvus cornix",
+        "id": "Q25405",
+        "label": "серая ворона",
+        "description": "вид птиц семейства врановых",
+        "status": null,
+        "image": "Corvus cornix (33515567265).jpg"
+      },
+      {
+        "taxon_name": "Aptenodytes forsteri",
+        "id": "Q161829",
+        "label": "императорский пингвин",
+        "description": "самый крупный и тяжёлый из современных видов семейства пингвиновых",
+        "status": "близки к уязвимому положению",
+        "image": "202501 Emperor penguin.svg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Bird_Diversity_2011.png",
+    "image_file": "images/birds.png"
+  },
+  "migration": {
+    "wikidata_id": "Q193145",
+    "label": "миграция животных",
+    "description": "закономерное передвижение животных между значительно отличными местами расселения",
+    "label_en": "animal migration",
+    "taxon_name": null,
+    "aliases": [
+      "миграции животных"
+    ],
+    "image": "Connochaetes taurinus -Wildebeest crossing river -East Africa.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85",
+    "parents": [
+      {
+        "property": "P279",
+        "id": "Q1800545",
+        "label": "миграция"
+      },
+      {
+        "property": "P279",
+        "id": "Q2990593",
+        "label": "поведение животных"
+      },
+      {
+        "property": "P279",
+        "id": "Q15275719",
+        "label": "регулярное событие"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Megaptera novaeangliae",
+        "id": "Q132905",
+        "label": "Горбатый кит",
+        "description": "вид морских млекопитающих семейства полосатиковых китов парвотряда усатых китов",
+        "status": "находятся под наименьшей угрозой",
+        "image": "202312 Humpback whale.svg"
+      },
+      {
+        "taxon_name": "Danaus plexippus",
+        "id": "Q212398",
+        "label": "Данаида монарх",
+        "description": "вид бабочек из семейства нимфалид",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Danaus plexippus MHNT femelle.jpg"
+      },
+      {
+        "taxon_name": "Salmo salar",
+        "id": "Q188879",
+        "label": "сёмга",
+        "description": "вид лососёвых рыб из рода лососей",
+        "status": "близки к уязвимому положению",
+        "image": "202409 Atlantic Salmon.svg"
+      },
+      {
+        "taxon_name": "Grus grus",
+        "id": "Q4764",
+        "label": "серый журавль",
+        "description": "крупная птица, второй по численности вид журавлей",
+        "status": "находятся под наименьшей угрозой",
+        "image": "2017.07.04.-01-Wendisch Rietz--Kranich.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Connochaetes_taurinus_-Wildebeest_crossing_river_-East_Africa.jpg",
+    "image_file": "images/migration.jpg"
+  },
+  "camouflage": {
+    "wikidata_id": "Q196327",
+    "label": "защитная окраска",
+    "description": null,
+    "label_en": "crypsis",
+    "taxon_name": null,
+    "aliases": [
+      "мимикрия",
+      "скрытность"
+    ],
+    "image": "Transvaal flat gecko (Afroedura transvaalica).jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B0%D1%8F_%D0%BE%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q2996394",
+        "label": "жизнедеятельность"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Chamaeleo calyptratus",
+        "id": "Q1124882",
+        "label": "йеменский хамелеон",
+        "description": null,
+        "status": "находятся под наименьшей угрозой",
+        "image": "Chamaeleo calyptratus 01.jpg"
+      },
+      {
+        "taxon_name": "Lepus timidus",
+        "id": "Q180035",
+        "label": "заяц-беляк",
+        "description": "Вид млекопитающих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Lepus timidus in Volgograd Oblast.jpg"
+      },
+      {
+        "taxon_name": "Mantis religiosa",
+        "id": "Q268319",
+        "label": "богомол обыкновенный",
+        "description": "крупное хищное насекомое",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Mantid August 2007-2.jpg"
+      },
+      {
+        "taxon_name": "Phasmatodea",
+        "id": "Q49381348",
+        "label": "Phasmatodea",
+        "description": "отряд насекомых",
+        "status": null,
+        "image": "Phasmatodea 2941.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Transvaal_flat_gecko_%28Afroedura_transvaalica%29.jpg",
+    "image_file": "images/camouflage.jpg"
+  },
+  "omnivores": {
+    "wikidata_id": "Q30898693",
+    "label": "всеядность",
+    "description": "способность животных употреблять наиболее широкий спектр организмов: растительную, животную или грибную пищу",
+    "label_en": "omnivorism",
+    "taxon_name": null,
+    "aliases": [
+      "миксофагия",
+      "пантофагия",
+      "эврифагия"
+    ],
+    "image": null,
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D1%8F%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q474191",
+        "label": "диета"
+      },
+      {
+        "property": "P279",
+        "id": "Q14819856",
+        "label": "пищевое поведение"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Ursus arctos",
+        "id": "Q36341",
+        "label": "бурый медведь",
+        "description": "вид медвежьих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "202309 Ezo brown bear.svg"
+      },
+      {
+        "taxon_name": "Sus scrofa",
+        "id": "Q58697",
+        "label": "кабан",
+        "description": "вид млекопитающих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Wildschwein, Nähe Pulverstampftor.jpg"
+      },
+      {
+        "taxon_name": "Corvus cornix",
+        "id": "Q25405",
+        "label": "серая ворона",
+        "description": "вид птиц семейства врановых",
+        "status": null,
+        "image": "Corvus cornix (33515567265).jpg"
+      },
+      {
+        "taxon_name": "Erinaceus europaeus",
+        "id": "Q6145",
+        "label": "обыкновенный ёж",
+        "description": "вид ежей",
+        "status": "близки к уязвимому положению",
+        "image": "Erinaceus europaeus (Linnaeus, 1758).jpg"
+      }
+    ],
+    "image_from": "бурый медведь",
+    "image_source": "https://commons.wikimedia.org/wiki/File:202309_Ezo_brown_bear.svg",
+    "image_file": "images/omnivores.png"
+  },
+  "animals": {
+    "wikidata_id": "Q729",
+    "label": "животные",
+    "description": "биологическое царство многоклеточных эукариотических организмов",
+    "label_en": "animal",
+    "taxon_name": "Animalia",
+    "aliases": [
+      "Metazoa",
+      "живое существо",
+      "животное",
+      "животные организмы",
+      "существо",
+      "царство животных"
+    ],
+    "image": "Animal diversity.png",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q36458",
+        "label": "многоклеточный организм"
+      },
+      {
+        "property": "P279",
+        "id": "Q159344",
+        "label": "гетеротроф"
+      },
+      {
+        "property": "P171",
+        "id": "Q1205126",
+        "label": "Choanozoa"
+      },
+      {
+        "property": "P31",
+        "id": "Q55983715",
+        "label": "группа организмов, известная по народному названию"
+      },
+      {
+        "property": "P31",
+        "id": "Q104086571",
+        "label": "класс первого порядка"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Canis lupus",
+        "id": "Q18498",
+        "label": "волк",
+        "description": "вид хищных млекопитающих из семейства псовых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Eurasian wolf 2.jpg"
+      },
+      {
+        "taxon_name": "Aquila chrysaetos",
+        "id": "Q41181",
+        "label": "беркут",
+        "description": "одна из наиболее известных хищных птиц семейства ястребиных, самый крупный орёл",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Maakotka (Aquila chrysaetos) by Jarkko Järvinen.jpg"
+      },
+      {
+        "taxon_name": "Apis mellifera",
+        "id": "Q30034",
+        "label": "медоносная пчела",
+        "description": "вид общественных пчёл семейства Apidae",
+        "status": "данных недостаточно",
+        "image": "(MHNT) Apis mellifera (female) - on viburnum tinus flowers.jpg"
+      },
+      {
+        "taxon_name": "Octopus vulgaris",
+        "id": "Q651361",
+        "label": "Осьминог обыкновенный",
+        "description": "один из самых распространённых и хорошо изученных видов осьминогов",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Octopus vulgaris Merculiano.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Animal_diversity.png",
+    "image_file": "images/animals.png"
+  },
+  "arachnids": {
+    "wikidata_id": "Q1358",
+    "label": "паукообразные",
+    "description": "класс членистоногих",
+    "label_en": null,
+    "taxon_name": "Arachnida",
+    "aliases": [
+      "Arachnoidea",
+      "аранеиды",
+      "арахнид",
+      "арахниды"
+    ],
+    "image": "Arachnida collage.png",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%83%D0%BA%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P171",
+        "id": "Q1359",
+        "label": "хелицеровые"
+      },
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q1357",
+        "label": "пауки",
+        "sitelinks": 210
+      },
+      {
+        "id": "Q19125",
+        "label": "скорпионы",
+        "sitelinks": 151
+      },
+      {
+        "id": "Q19116",
+        "label": "сенокосцы",
+        "sitelinks": 74
+      },
+      {
+        "id": "Q19126",
+        "label": "сольпуги",
+        "sitelinks": 66
+      },
+      {
+        "id": "Q19119",
+        "label": "ложноскорпионы",
+        "sitelinks": 58
+      },
+      {
+        "id": "Q19111",
+        "label": "фрины",
+        "sitelinks": 43
+      },
+      {
+        "id": "Q19135",
+        "label": "телифоны",
+        "sitelinks": 39
+      },
+      {
+        "id": "Q19117",
+        "label": "пальпиграды",
+        "sitelinks": 33
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Araneus diadematus",
+        "id": "Q337509",
+        "label": "Крестовик обыкновенный",
+        "description": "вид пауков-кругопрядов",
+        "status": null,
+        "image": "Araneus diadematus MHNT Femelle Fronton.jpg"
+      },
+      {
+        "taxon_name": "Ixodes ricinus",
+        "id": "Q21175",
+        "label": "собачий клещ",
+        "description": "вид иксодовых клещей",
+        "status": null,
+        "image": "Ixodes ricinus on dry grass.jpg"
+      },
+      {
+        "taxon_name": "Latrodectus mactans",
+        "id": "Q113297",
+        "label": "чёрная вдова",
+        "description": "опасный вид пауков, распространённый в Северной Америке и ввезённый в Австралию и Океанию",
+        "status": null,
+        "image": "Black-widow-red-spots-yellow-legs.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Arachnida_collage.png",
+    "image_file": "images/arachnids.png"
+  },
+  "insects": {
+    "wikidata_id": "Q1390",
+    "label": "насекомые",
+    "description": "класс или надкласс беспозвоночных членистоногих животных",
+    "label_en": "insect",
+    "taxon_name": "Insecta",
+    "aliases": [],
+    "image": "Insekter.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BA%D0%BE%D0%BC%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q1360",
+        "label": "членистоногие"
+      },
+      {
+        "property": "P171",
+        "id": "Q105146",
+        "label": "шестиногие"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q28319",
+        "label": "чешуекрылые",
+        "sitelinks": 134
+      },
+      {
+        "id": "Q22671",
+        "label": "жесткокрылые",
+        "sitelinks": 132
+      },
+      {
+        "id": "Q25312",
+        "label": "двукрылые",
+        "sitelinks": 125
+      },
+      {
+        "id": "Q131250",
+        "label": "богомоловые",
+        "sitelinks": 108
+      },
+      {
+        "id": "Q25309",
+        "label": "таракановые",
+        "sitelinks": 106
+      },
+      {
+        "id": "Q22651",
+        "label": "перепончатокрылые",
+        "sitelinks": 95
+      },
+      {
+        "id": "Q167810",
+        "label": "прямокрылые",
+        "sitelinks": 94
+      },
+      {
+        "id": "Q13676",
+        "label": "кожистокрылые",
+        "sitelinks": 89
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Apis mellifera",
+        "id": "Q30034",
+        "label": "медоносная пчела",
+        "description": "вид общественных пчёл семейства Apidae",
+        "status": "данных недостаточно",
+        "image": "(MHNT) Apis mellifera (female) - on viburnum tinus flowers.jpg"
+      },
+      {
+        "taxon_name": "Coccinella septempunctata",
+        "id": "Q159543",
+        "label": "Семиточечная коровка",
+        "description": "вид жуков",
+        "status": null,
+        "image": "BIEDRONA.JPG"
+      },
+      {
+        "taxon_name": "Pieris brassicae",
+        "id": "Q26764",
+        "label": "Капустница",
+        "description": "вид насекомых",
+        "status": null,
+        "image": "(MHNT) Pieris brassicae - Foret de Bouconne, France - female.jpg"
+      },
+      {
+        "taxon_name": "Danaus plexippus",
+        "id": "Q212398",
+        "label": "Данаида монарх",
+        "description": "вид бабочек из семейства нимфалид",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Danaus plexippus MHNT femelle.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Insekter.jpg",
+    "image_file": "images/insects.jpg"
+  },
+  "mammals": {
+    "wikidata_id": "Q7377",
+    "label": "млекопитающие",
+    "description": "класс животных, питающих потомство молоком",
+    "label_en": "mammal",
+    "taxon_name": "Mammalia",
+    "aliases": [
+      "млекопитающее"
+    ],
+    "image": null,
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%BB%D0%B5%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D1%8E%D1%89%D0%B8%D0%B5",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q25241",
+        "label": "позвоночные"
+      },
+      {
+        "property": "P171",
+        "id": "Q2082668",
+        "label": "маммалиаформы"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q28425",
+        "label": "рукокрылые",
+        "sitelinks": 194
+      },
+      {
+        "id": "Q25306",
+        "label": "хищные",
+        "sitelinks": 131
+      },
+      {
+        "id": "Q21790",
+        "label": "однопроходные",
+        "sitelinks": 96
+      },
+      {
+        "id": "Q25431",
+        "label": "сирены",
+        "sitelinks": 88
+      },
+      {
+        "id": "Q26332",
+        "label": "двурезцовые сумчатые",
+        "sitelinks": 69
+      },
+      {
+        "id": "Q1231177",
+        "label": "копытные",
+        "sitelinks": 66
+      },
+      {
+        "id": "Q25842",
+        "label": "насекомоядные",
+        "sitelinks": 62
+      },
+      {
+        "id": "Q143441",
+        "label": "неполнозубые",
+        "sitelinks": 59
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Balaenoptera musculus",
+        "id": "Q42196",
+        "label": "синий кит",
+        "description": "морское млекопитающее, самое большое современное животное на Земле",
+        "status": "вымирающие виды",
+        "image": "202501 Blue whale.svg"
+      },
+      {
+        "taxon_name": "Ornithorhynchus anatinus",
+        "id": "Q15343",
+        "label": "утконос",
+        "description": "вид примитивных млекопитающих",
+        "status": "близки к уязвимому положению",
+        "image": "Duck-billed platypus (Ornithorhynchus anatinus) Scottsdale.jpg"
+      },
+      {
+        "taxon_name": "Ursus arctos",
+        "id": "Q36341",
+        "label": "бурый медведь",
+        "description": "вид медвежьих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "202309 Ezo brown bear.svg"
+      },
+      {
+        "taxon_name": "Erinaceus europaeus",
+        "id": "Q6145",
+        "label": "обыкновенный ёж",
+        "description": "вид ежей",
+        "status": "близки к уязвимому положению",
+        "image": "Erinaceus europaeus (Linnaeus, 1758).jpg"
+      }
+    ],
+    "image_from": "обыкновенный ёж",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_%28Linnaeus%2C_1758%29.jpg",
+    "image_file": "images/mammals.jpg"
+  },
+  "reptiles": {
+    "wikidata_id": "Q10811",
+    "label": "пресмыкающиеся",
+    "description": "класс животных",
+    "label_en": "Reptilia",
+    "taxon_name": "Reptilia",
+    "aliases": [
+      "Reptilia",
+      "пресмыкающееся",
+      "рептилии",
+      "рептилия"
+    ],
+    "image": "Extant reptilia.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D0%BC%D1%8B%D0%BA%D0%B0%D1%8E%D1%89%D0%B8%D0%B5%D1%81%D1%8F",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q19159",
+        "label": "четвероногие"
+      },
+      {
+        "property": "P171",
+        "id": "Q329457",
+        "label": "завропсиды"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q15099738",
+        "label": "Клювоголовые",
+        "description": "отряд пресмыкающихся"
+      },
+      {
+        "id": "Q25363",
+        "label": "Крокодилы",
+        "description": "отряд вторично-водных позвоночных"
+      },
+      {
+        "id": "Q122422",
+        "label": "чешуйчатые",
+        "description": "один из четырёх современных отрядов пресмыкающихся, включающий змей, ящериц и амфисбен (двуходок)"
+      },
+      {
+        "id": "Q223044",
+        "label": "черепахи",
+        "description": "отряд пресмыкающихся"
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Lacerta agilis",
+        "id": "Q148595",
+        "label": "прыткая ящерица",
+        "description": "вид ящериц",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Jaszczurka.jpg"
+      },
+      {
+        "taxon_name": "Vipera berus",
+        "id": "Q192056",
+        "label": "обыкновенная гадюка",
+        "description": null,
+        "status": "находятся под наименьшей угрозой",
+        "image": "Benny Trapp Vipera berus.jpg"
+      },
+      {
+        "taxon_name": "Crocodylus niloticus",
+        "id": "Q168745",
+        "label": "Нильский крокодил",
+        "description": "крупное пресмыкающееся семейства настоящих крокодилов",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Crocodylus niloticus6.jpg"
+      },
+      {
+        "taxon_name": "Chelonia mydas",
+        "id": "Q199458",
+        "label": "Зелёная черепаха",
+        "description": "вид морских черепах",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Green sea turtle (Chelonia mydas) Moorea.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Extant_reptilia.jpg",
+    "image_file": "images/reptiles.jpg"
+  },
+  "amphibians": {
+    "wikidata_id": "Q10908",
+    "label": "земноводные",
+    "description": "класс четвероногих животных",
+    "label_en": "Amphibia",
+    "taxon_name": "Amphibia",
+    "aliases": [
+      "Amphibia",
+      "амфибии",
+      "голые гады",
+      "земноводное"
+    ],
+    "image": "Fire salamander (Salamandra Salamandra).jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%97%D0%B5%D0%BC%D0%BD%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      },
+      {
+        "property": "P279",
+        "id": "Q19159",
+        "label": "четвероногие"
+      },
+      {
+        "property": "P171",
+        "id": "Q2521462",
+        "label": "Batrachomorpha"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q53636",
+        "label": "бесхвостые земноводные",
+        "sitelinks": 183
+      },
+      {
+        "id": "Q53663",
+        "label": "хвостатые земноводные",
+        "sitelinks": 95
+      },
+      {
+        "id": "Q4758",
+        "label": "безногие земноводные",
+        "sitelinks": 66
+      },
+      {
+        "id": "Q3364269",
+        "label": "ихтиостегалии",
+        "sitelinks": 20
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Rana temporaria",
+        "id": "Q27465",
+        "label": "травяная лягушка",
+        "description": "Лягушка",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Common frog.jpg"
+      },
+      {
+        "taxon_name": "Pelophylax ridibundus",
+        "id": "Q319393",
+        "label": "озёрная лягушка",
+        "description": "вид земноводных семейства настоящие лягушки",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Marsh frog (Pelophylax ridibundus).jpg"
+      },
+      {
+        "taxon_name": "Lissotriton vulgaris",
+        "id": "Q215247",
+        "label": "обыкновенный тритон",
+        "description": null,
+        "status": "находятся под наименьшей угрозой",
+        "image": "LissotritonVulgarisMaleWater.JPG"
+      },
+      {
+        "taxon_name": "Ambystoma mexicanum",
+        "id": "Q22718",
+        "label": "Мексиканская амбистома",
+        "description": "вид земноводных",
+        "status": "виды на грани исчезновения",
+        "image": "Ambystoma mexicanum Natural History Museum University of Pisa (cropped).jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Fire_salamander_%28Salamandra_Salamandra%29.jpg",
+    "image_file": "images/amphibians.jpg"
+  },
+  "endangered_species": {
+    "wikidata_id": "Q11394",
+    "label": "вымирающие виды",
+    "description": "охранный статус МСОП",
+    "label_en": "endangered species",
+    "taxon_name": null,
+    "aliases": [
+      "биологические виды, подверженные угрозе вымирания",
+      "вымирающий вид",
+      "исчезающие виды",
+      "исчезающий вид"
+    ],
+    "image": "Ostafrikanisches Spitzmaulnashorn.JPG",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%BC%D0%B8%D1%80%D0%B0%D1%8E%D1%89%D0%B8%D0%B5_%D0%B2%D0%B8%D0%B4%D1%8B",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q82673",
+        "label": "охранный статус"
+      },
+      {
+        "property": "P279",
+        "id": "Q16197023",
+        "label": "угрожаемые виды"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Panthera tigris altaica",
+        "id": "Q69581",
+        "label": "амурский тигр",
+        "description": "подвид тигра, обитающий на Дальнем Востоке",
+        "status": "вымирающие виды",
+        "image": "P.t.altaica Tomak Male.jpg"
+      },
+      {
+        "taxon_name": "Ailuropoda melanoleuca",
+        "id": "Q33602",
+        "label": "большая панда",
+        "description": "вид млекопитающих из семейства медвежьих",
+        "status": "уязвимый вид",
+        "image": "Giant Panda 2004-03-2.jpg"
+      },
+      {
+        "taxon_name": "Ursus maritimus",
+        "id": "Q33609",
+        "label": "белый медведь",
+        "description": "вид медвежьих",
+        "status": "уязвимый вид",
+        "image": "Polar Bear - Alaska (cropped).jpg"
+      }
+    ],
+    "examples_iucn": [
+      {
+        "id": "Q179959",
+        "label": "какапо",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q95036",
+        "label": "чёрный носорог",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q26387",
+        "label": "речной угорь",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q22718",
+        "label": "Мексиканская амбистома",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q17134",
+        "label": "Гангский гавиал",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q170311",
+        "label": "Яванский носорог",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q26559",
+        "label": "европейская норка",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q29220",
+        "label": "суматранский носорог",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q185213",
+        "label": "Филиппинская гарпия",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q189514",
+        "label": "Лесной слон",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q190154",
+        "label": "Аддакс",
+        "status": "виды на грани исчезновения"
+      },
+      {
+        "id": "Q183035",
+        "label": "Бантенг",
+        "status": "виды на грани исчезновения"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Ostafrikanisches_Spitzmaulnashorn.JPG",
+    "image_file": "images/endangered_species.jpg"
+  },
+  "predators": {
+    "wikidata_id": "Q81875",
+    "label": "плотоядные",
+    "description": "организм, который ест только или в основном ткани животных",
+    "label_en": "carnivore",
+    "taxon_name": null,
+    "aliases": [
+      "зоофаги",
+      "карниворы",
+      "мясоеды",
+      "плотоядное животное",
+      "плотоядные животные"
+    ],
+    "image": "Carnivore 205844426.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D1%82%D0%BE%D1%8F%D0%B4%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P279",
+        "id": "Q220314",
+        "label": "зоофаг"
+      },
+      {
+        "property": "P31",
+        "id": "Q21871294",
+        "label": "класс живых организмов"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Canis lupus",
+        "id": "Q18498",
+        "label": "волк",
+        "description": "вид хищных млекопитающих из семейства псовых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Eurasian wolf 2.jpg"
+      },
+      {
+        "taxon_name": "Panthera leo",
+        "id": "Q140",
+        "label": "лев",
+        "description": "вид хищных млекопитающих семейства кошачьих",
+        "status": "уязвимый вид",
+        "image": "PZ lion pride.jpg"
+      },
+      {
+        "taxon_name": "Panthera tigris",
+        "id": "Q19939",
+        "label": "тигр",
+        "description": "вид хищных млекопитающих семейства кошачьих",
+        "status": "вымирающие виды",
+        "image": "Adult male Royal Bengal tiger.jpg"
+      },
+      {
+        "taxon_name": "Vulpes vulpes",
+        "id": "Q8332",
+        "label": "обыкновенная лисица",
+        "description": "хищное млекопитающее семейства псовых, наиболее распространённый и самый крупный вид рода лисиц",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Portrait of a red fox in Rautas fjällurskog (cropped).jpg"
+      }
+    ],
+    "image_from": "лев",
+    "image_source": "https://commons.wikimedia.org/wiki/File:PZ_lion_pride.jpg",
+    "image_file": "images/predators.jpg"
+  },
+  "hibernation": {
+    "wikidata_id": "Q159408",
+    "label": "спячка",
+    "description": "период замедления жизненных процессов и метаболизма у гомойотермных животных в периоды малодоступности пищи, когда невозможно сохранять активность и высокий уровень метаболизма",
+    "label_en": "hibernation",
+    "taxon_name": null,
+    "aliases": [
+      "гибернация (биология)",
+      "зимняя спячка",
+      "эстивация"
+    ],
+    "image": "Eptesicus nilssonii hibernating.JPG",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D1%8F%D1%87%D0%BA%D0%B0",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q2996394",
+        "label": "жизнедеятельность"
+      },
+      {
+        "property": "P279",
+        "id": "Q1651205",
+        "label": "оцепенение"
+      },
+      {
+        "property": "P279",
+        "id": "Q3138714",
+        "label": "зимовка"
+      },
+      {
+        "property": "P279",
+        "id": "Q22294349",
+        "label": "процесс покоя"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Erinaceus europaeus",
+        "id": "Q6145",
+        "label": "обыкновенный ёж",
+        "description": "вид ежей",
+        "status": "близки к уязвимому положению",
+        "image": "Erinaceus europaeus (Linnaeus, 1758).jpg"
+      },
+      {
+        "taxon_name": "Marmota monax",
+        "id": "Q221612",
+        "label": "Лесной сурок",
+        "description": "североамериканский грызун рода сурков",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Groundhog3.jpg"
+      },
+      {
+        "taxon_name": "Ursus arctos",
+        "id": "Q36341",
+        "label": "бурый медведь",
+        "description": "вид медвежьих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "202309 Ezo brown bear.svg"
+      },
+      {
+        "taxon_name": "Rana temporaria",
+        "id": "Q27465",
+        "label": "травяная лягушка",
+        "description": "Лягушка",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Common frog.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Eptesicus_nilssonii_hibernating.JPG",
+    "image_file": "images/hibernation.jpg"
+  },
+  "food_chain": {
+    "wikidata_id": "Q159462",
+    "label": "пищевая цепь",
+    "description": "организмы, связанные пищевыми отношениями",
+    "label_en": "food chain",
+    "taxon_name": null,
+    "aliases": [
+      "пищевая связь",
+      "пищевая цепочка",
+      "трофическая цепь",
+      "цепь питания"
+    ],
+    "image": "FoodWeb.svg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%89%D0%B5%D0%B2%D0%B0%D1%8F_%D1%86%D0%B5%D0%BF%D1%8C",
+    "parents": [
+      {
+        "property": "P31",
+        "id": "Q1823478",
+        "label": "отношение между организмами"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Lepus timidus",
+        "id": "Q180035",
+        "label": "заяц-беляк",
+        "description": "Вид млекопитающих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Lepus timidus in Volgograd Oblast.jpg"
+      },
+      {
+        "taxon_name": "Vulpes vulpes",
+        "id": "Q8332",
+        "label": "обыкновенная лисица",
+        "description": "хищное млекопитающее семейства псовых, наиболее распространённый и самый крупный вид рода лисиц",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Portrait of a red fox in Rautas fjällurskog (cropped).jpg"
+      },
+      {
+        "taxon_name": "Aquila chrysaetos",
+        "id": "Q41181",
+        "label": "беркут",
+        "description": "одна из наиболее известных хищных птиц семейства ястребиных, самый крупный орёл",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Maakotka (Aquila chrysaetos) by Jarkko Järvinen.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:FoodWeb.svg",
+    "image_file": "images/food_chain.png"
+  },
+  "vertebrates": {
+    "wikidata_id": "Q25241",
+    "label": "позвоночные",
+    "description": "подтип хордовых животных",
+    "label_en": null,
+    "taxon_name": "Vertebrata",
+    "aliases": [
+      "позвоночные животные"
+    ],
+    "image": "Lizard on leaf cutted.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P171",
+        "id": "Q10915",
+        "label": "хордовые"
+      },
+      {
+        "property": "P279",
+        "id": "Q10915",
+        "label": "хордовые"
+      },
+      {
+        "property": "P31",
+        "id": "Q16521",
+        "label": "таксон"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Felis catus",
+        "id": "Q20980826",
+        "label": "Felis catus",
+        "description": "вид кошачьих, иногда сопоставляемый с домашней кошкой",
+        "status": null,
+        "image": "Cat November 2010-1a.jpg"
+      },
+      {
+        "taxon_name": "Ciconia ciconia",
+        "id": "Q25352",
+        "label": "белый аист",
+        "description": "вид птиц из семейства аистовых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "00 4439 Storchennest mit Küken.jpg"
+      },
+      {
+        "taxon_name": "Lacerta agilis",
+        "id": "Q148595",
+        "label": "прыткая ящерица",
+        "description": "вид ящериц",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Jaszczurka.jpg"
+      },
+      {
+        "taxon_name": "Rana temporaria",
+        "id": "Q27465",
+        "label": "травяная лягушка",
+        "description": "Лягушка",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Common frog.jpg"
+      },
+      {
+        "taxon_name": "Esox lucius",
+        "id": "Q165278",
+        "label": "щука",
+        "description": "рыба семейства щуковых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Esox Lucius.JPG"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Lizard_on_leaf_cutted.jpg",
+    "image_file": "images/vertebrates.jpg"
+  },
+  "metamorphosis": {
+    "wikidata_id": "Q33753",
+    "label": "метаморфоз",
+    "description": "глубокое преобразование строения организма",
+    "label_en": "metamorphosis",
+    "taxon_name": null,
+    "aliases": [
+      "жизненные формы животных",
+      "метаболия",
+      "метаморфоза животных",
+      "преобразование животных"
+    ],
+    "image": "Metamorphosis of butterfly (PSF).png",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%B7",
+    "parents": [
+      {
+        "property": "P279",
+        "id": "Q2996394",
+        "label": "жизнедеятельность"
+      },
+      {
+        "property": "P279",
+        "id": "Q20056177",
+        "label": "стадия развития животного"
+      },
+      {
+        "property": "P279",
+        "id": "Q65757353",
+        "label": "трансформация"
+      },
+      {
+        "property": "P279",
+        "id": "Q109243377",
+        "label": "изменение"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Danaus plexippus",
+        "id": "Q212398",
+        "label": "Данаида монарх",
+        "description": "вид бабочек из семейства нимфалид",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Danaus plexippus MHNT femelle.jpg"
+      },
+      {
+        "taxon_name": "Rana temporaria",
+        "id": "Q27465",
+        "label": "травяная лягушка",
+        "description": "Лягушка",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Common frog.jpg"
+      },
+      {
+        "taxon_name": "Pieris brassicae",
+        "id": "Q26764",
+        "label": "Капустница",
+        "description": "вид насекомых",
+        "status": null,
+        "image": "(MHNT) Pieris brassicae - Foret de Bouconne, France - female.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Metamorphosis_of_butterfly_%28PSF%29.png",
+    "image_file": "images/metamorphosis.png"
+  },
+  "invertebrates": {
+    "wikidata_id": "Q43806",
+    "label": "беспозвоночные",
+    "description": "термин, предложенный Ж. Б. Ламарком как обобщающее название для насекомых и червей",
+    "label_en": "invertebrate",
+    "taxon_name": "Invertebrata",
+    "aliases": [
+      "беспозвоночные животные"
+    ],
+    "image": "Jelly cc11.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%81%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B5",
+    "parents": [
+      {
+        "property": "P171",
+        "id": "Q729",
+        "label": "животные"
+      },
+      {
+        "property": "P279",
+        "id": "Q729",
+        "label": "животные"
+      },
+      {
+        "property": "P31",
+        "id": "Q2612572",
+        "label": "града"
+      }
+    ],
+    "subtaxa": [
+      {
+        "id": "Q1360",
+        "label": "членистоногие",
+        "description": "тип животных"
+      },
+      {
+        "id": "Q25441",
+        "label": "стрекающие",
+        "description": "тип животных"
+      },
+      {
+        "id": "Q25326",
+        "label": "моллюски",
+        "description": "тип беспозвоночных животных"
+      },
+      {
+        "id": "Q25522",
+        "label": "кольчатые черви",
+        "description": "тип беспозвоночных животных"
+      },
+      {
+        "id": "Q44631",
+        "label": "иглокожие",
+        "description": "тип морских животных"
+      }
+    ],
+    "examples": [
+      {
+        "taxon_name": "Lumbricus terrestris",
+        "id": "Q30092",
+        "label": "Обыкновенный дождевой червь",
+        "description": "вид кольчатых червей",
+        "status": null,
+        "image": "Lumbricus terrestris (26559560801).jpg"
+      },
+      {
+        "taxon_name": "Octopus vulgaris",
+        "id": "Q651361",
+        "label": "Осьминог обыкновенный",
+        "description": "один из самых распространённых и хорошо изученных видов осьминогов",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Octopus vulgaris Merculiano.jpg"
+      },
+      {
+        "taxon_name": "Aurelia aurita",
+        "id": "Q26864",
+        "label": "ушастая аурелия",
+        "description": "вид сцифоидных из отряда дискомедуз (Semaeostomeae)",
+        "status": null,
+        "image": "Moon Jellyfish (14278816210).jpg"
+      },
+      {
+        "taxon_name": "Helix pomatia",
+        "id": "Q245314",
+        "label": "Виноградная улитка",
+        "description": "вид моллюсков",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Helix pomatia (Dourbes).jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Jelly_cc11.jpg",
+    "image_file": "images/invertebrates.jpg"
+  },
+  "habitat": {
+    "wikidata_id": "Q52105",
+    "label": "местообитание",
+    "description": "совокупность биотических, абиотических и антропогенных (при их наличии) экологических факторов на любой определённой территории или акватории",
+    "label_en": "habitat",
+    "taxon_name": null,
+    "aliases": [
+      "жизненное пространство",
+      "место обитания"
+    ],
+    "image": "Rotjan - Enderbury Day 1 - 2nd half (62).JPG",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%82%D0%BE%D0%BE%D0%B1%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5",
+    "parents": [
+      {
+        "property": "P279",
+        "id": "Q43619",
+        "label": "окружающая среда"
+      },
+      {
+        "property": "P279",
+        "id": "Q82794",
+        "label": "географический регион"
+      },
+      {
+        "property": "P31",
+        "id": "Q25894868",
+        "label": "тип места"
+      },
+      {
+        "property": "P31",
+        "id": "Q56575300",
+        "label": "экологическое понятие"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Ursus maritimus",
+        "id": "Q33609",
+        "label": "белый медведь",
+        "description": "вид медвежьих",
+        "status": "уязвимый вид",
+        "image": "Polar Bear - Alaska (cropped).jpg"
+      },
+      {
+        "taxon_name": "Camelus dromedarius",
+        "id": "Q71516",
+        "label": "одногорбый верблюд",
+        "description": "вид млекопитающих, один из представителей семейства верблюдовых",
+        "status": null,
+        "image": "Camelcalf-feeding.jpg"
+      },
+      {
+        "taxon_name": "Megaptera novaeangliae",
+        "id": "Q132905",
+        "label": "Горбатый кит",
+        "description": "вид морских млекопитающих семейства полосатиковых китов парвотряда усатых китов",
+        "status": "находятся под наименьшей угрозой",
+        "image": "202312 Humpback whale.svg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Rotjan_-_Enderbury_Day_1_-_2nd_half_%2862%29.JPG",
+    "image_file": "images/habitat.jpg"
+  },
+  "herbivores": {
+    "wikidata_id": "Q59099",
+    "label": "фитофаги",
+    "description": "животные, питающиеся растительной пищей",
+    "label_en": "herbivore",
+    "taxon_name": null,
+    "aliases": [
+      "растительноядные",
+      "травоядное",
+      "травоядные",
+      "фитофаг"
+    ],
+    "image": "Fawn and mother.jpg",
+    "ruwiki": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D1%82%D0%BE%D1%84%D0%B0%D0%B3%D0%B8",
+    "parents": [
+      {
+        "property": "P279",
+        "id": "Q729",
+        "label": "животные"
+      },
+      {
+        "property": "P279",
+        "id": "Q72638",
+        "label": "консументы"
+      },
+      {
+        "property": "P31",
+        "id": "Q21871294",
+        "label": "класс живых организмов"
+      }
+    ],
+    "subtaxa": [],
+    "examples": [
+      {
+        "taxon_name": "Alces alces",
+        "id": "Q35517",
+        "label": "Европейский лось",
+        "description": "парнокопытное млекопитающее семейства оленевых рода настоящих оленей.",
+        "status": "находятся под наименьшей угрозой",
+        "image": "A male moose takes a rest in a field during a light rainshower.jpg"
+      },
+      {
+        "taxon_name": "Giraffa camelopardalis",
+        "id": "Q15083",
+        "label": "жираф",
+        "description": "вид млекопитающих из отряда парнокопытных",
+        "status": "уязвимый вид",
+        "image": "Rothschild's giraffe (Giraffa camelopardalis rothschildi) - Murchison Falls National Park.jpg"
+      },
+      {
+        "taxon_name": "Lepus timidus",
+        "id": "Q180035",
+        "label": "заяц-беляк",
+        "description": "Вид млекопитающих",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Lepus timidus in Volgograd Oblast.jpg"
+      },
+      {
+        "taxon_name": "Capreolus capreolus",
+        "id": "Q122069",
+        "label": "европейская косуля",
+        "description": "парнокопытное животное семейства оленевых",
+        "status": "находятся под наименьшей угрозой",
+        "image": "Capreolus (js)11.jpg"
+      }
+    ],
+    "image_source": "https://commons.wikimedia.org/wiki/File:Fawn_and_mother.jpg",
+    "image_file": "images/herbivores.jpg"
+  }
+}

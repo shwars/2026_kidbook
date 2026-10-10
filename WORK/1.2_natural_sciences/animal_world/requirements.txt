@@ -1,0 +1,4 @@
+anthropic>=1.11
+requests>=2.32
+pymorphy3>=2.0
+python-dotenv>=1.0

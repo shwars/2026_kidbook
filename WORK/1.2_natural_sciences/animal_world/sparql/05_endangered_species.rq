@@ -1,0 +1,12 @@
+# Самые известные виды со статусом МСОП «вымирающий» (Q11394)
+# или «на грани исчезновения» (Q219127). Растения отсеиваются отдельным ASK-запросом.
+SELECT ?item ?label ?status ?statusLabel ?sitelinks WHERE {
+  VALUES ?status { wd:Q11394 wd:Q219127 }
+  ?item wdt:P141 ?status ;
+        wikibase:sitelinks ?sitelinks .
+  FILTER(?sitelinks > 50)
+  ?item rdfs:label ?label FILTER(lang(?label) = "ru")
+  ?status rdfs:label ?statusLabel FILTER(lang(?statusLabel) = "ru")
+}
+ORDER BY DESC(?sitelinks)
+LIMIT 60

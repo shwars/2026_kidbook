@@ -1,0 +1,8 @@
+# Подграф знаний: какие понятия раздела связаны в WikiData цепочками
+# «родительский таксон» (P171) или «подкласс» (P279).
+SELECT DISTINCT ?a ?b WHERE {
+  VALUES ?a { %%ITEMS%% }
+  VALUES ?b { %%ITEMS%% }
+  ?a (wdt:P171|wdt:P279)+ ?b .
+  FILTER(?a != ?b)
+}

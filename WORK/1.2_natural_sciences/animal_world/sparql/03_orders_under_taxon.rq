@@ -1,0 +1,21 @@
+# Отряды (P105 = Q36602), которые лежат под классом на глубине до 8 шагов
+# по цепочке «родительский таксон» (P171). Свойство-путь P171+ здесь
+# упирается в таймаут, поэтому глубина развёрнута явно.
+SELECT DISTINCT ?order ?label ?sitelinks WHERE {
+  { ?order wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  UNION { ?order wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171/wdt:P171 wd:%%ROOT%% }
+  ?order wdt:P105 wd:Q36602 ;
+         wikibase:sitelinks ?sitelinks ;
+         rdfs:label ?label .
+  FILTER(lang(?label) = "ru" && REGEX(?label, "^[а-яё]"))
+  FILTER NOT EXISTS { ?order wdt:P141 wd:Q237350 }
+  FILTER NOT EXISTS { ?order wdt:P31 wd:Q23038290 }
+}
+ORDER BY DESC(?sitelinks)
+LIMIT %%LIMIT%%
